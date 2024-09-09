@@ -109,6 +109,9 @@ button:hover {
     font-weight: bold;
 }
 
+.cart-total-divider {
+    width: 200px;
+}
 
 
 
