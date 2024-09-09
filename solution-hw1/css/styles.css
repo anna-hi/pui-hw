@@ -2,6 +2,12 @@ img {
     border: 3px solid black;
 }
 
+hr {
+    border-top: 3px solid black;
+}
+
+/* https://www.w3schools.com/howto/howto_css_style_hr.asp */
+
 .nav-image {
     border: none;
 }
@@ -17,7 +23,7 @@ nav a:hover {
 
 a:hover h3 {
     font-weight: bold;
-    display: inline-block;
+    /* display: inline-block; */
     background-color: yellow;
 }
 
@@ -54,6 +60,8 @@ a {
 
 .product-name {
     text-decoration: underline;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .product:hover .product-name {
