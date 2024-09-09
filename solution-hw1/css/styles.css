@@ -7,6 +7,7 @@ hr {
 }
 
 /* https://www.w3schools.com/howto/howto_css_style_hr.asp */
+/* used website to understand syntax for hr CSS styles */
 
 .nav-image {
     border: none;
@@ -23,12 +24,8 @@ nav a:hover {
 
 a:hover h3 {
     font-weight: bold;
-    /* display: inline-block; */
     background-color: yellow;
 }
-
-/* https://www.geeksforgeeks.org/how-to-add-background-color-for-text-width-instead-of-entire-
-element-width-using-css/ */
 
 nav, main {
     display: flex;
@@ -45,10 +42,6 @@ main h2 {
 }
 
 main h4 {
-    font-weight: 400;
-}
-
-main h5 {
     font-weight: 400;
 }
 
