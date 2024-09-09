@@ -53,6 +53,10 @@ a {
     color: black;
 }
 
+.product {
+    padding: 5px;
+}
+
 .product:hover {
     background-color: yellow;
 
