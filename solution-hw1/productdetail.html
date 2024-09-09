@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Product Detail</title>
+  </head>
+
+  <body>
+    <img src="../assets/logo/logo-01.svg" width="400" class="nav-image" />
+    <hr size="3" color="black" />
+    <nav>
+      <a href="./productgallery.html"><h3>PRODUCTS</h3></a>
+      <a href="./shoppingcart.html"><h3>CART</h3></a>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Original cinnamon roll</h2>
+        <img src="../assets/products/original-cinnamon-roll.jpg" width="600" />
+
+        <p id="detail-instructions">
+          Customize our delicious, <br />hand-made cinnamon roll to <br />your
+          liking!
+        </p>
+      </section>
+
+      <section>
+        <p>Glazing:</p>
+
+        <select name="glazing" id="glazing">
+          <option value="original">Keep original</option>
+          <option value="sugar-milk">Sugar milk</option>
+          <option value="vanilla-milk">Vanilla milk</option>
+          <option value="double-chocolate">Double Chocolate</option>
+        </select>
+
+        <p>Pack Size:</p>
+
+        <select name="pack-size" id="pack-size">
+          <option value="one">1</option>
+          <option value="three">3</option>
+          <option value="six">6</option>
+          <option value="twelve">12</option>
+        </select>
+        <!-- https://www.w3schools.com/tags/tag_select.asp-->
+      </section>
+
+      <section class="add-item">
+        <h4>$2.49</h4>
+        <a href="./shoppingcart.html" class="real-button">
+          <button>Add to Cart</button>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
