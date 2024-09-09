@@ -48,6 +48,10 @@ main h4 {
     font-weight: 400;
 }
 
+main h5 {
+    font-weight: 400;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -89,13 +93,10 @@ button:hover {
     background-color: yellow;
 }
 
-.real-button:hover {
-    background-color: #fff;
-}
-
-#detail-instructions {
+.customize-details {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .shopping-page {
