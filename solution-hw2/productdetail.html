@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="./css/styles.css" >
+    <title>Product Detail</title>
+  </head>
+
+  <body>
+    <a href="./index.html">
+      <img
+        src="../assets/logo/logo-01.svg"
+        width="400"
+        class="nav-image"
+        alt="bun-bun-logo"
+      >
+    </a>
+    <hr >
+    <nav>
+      <a href="./index.html"><h3>PRODUCTS</h3></a>
+      <a href="./shoppingcart.html"><h3>CART</h3></a>
+    </nav>
+
+    <main>
+      <section class="selected-item">
+        <h2>Original cinnamon roll</h2>
+        <img
+          src="../assets/products/original-cinnamon-roll.jpg"
+          width="600"
+          alt="cinammon roll on a plate with cinammon sticks"
+        >
+      </section>
+
+      <section class="customize-details">
+        <h4 id="detail-instructions">
+          Customize our delicious, <br >hand-made cinnamon roll to <br >your
+          liking!
+        </h4>
+        <section>
+          <h4>Glazing:</h4>
+
+          <select name="glazing" id="glazing">
+            <option value="original">Keep original</option>
+            <option value="sugar-milk">Sugar milk</option>
+            <option value="vanilla-milk">Vanilla milk</option>
+            <option value="double-chocolate">Double Chocolate</option>
+          </select>
+        </section>
+
+        <section>
+          <h4>Pack Size:</h4>
+
+          <select name="pack-size" id="pack-size">
+            <option value="one">1</option>
+            <option value="three">3</option>
+            <option value="six">6</option>
+            <option value="twelve">12</option>
+          </select>
+          <!-- https://www.w3schools.com/tags/tag_select.asp-->
+          <!-- used website to figure out select syntax -->
+        </section>
+
+        <section class="add-item">
+          <h4>$2.49</h4>
+
+          <button>Add to Cart</button>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
