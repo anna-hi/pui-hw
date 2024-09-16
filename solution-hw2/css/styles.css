@@ -166,7 +166,7 @@ select {
 .shopping-page {
   align-items: end;
 
-  margin-right: 250px;
+  margin-right: 200px;
   text-align: left;
 }
 
@@ -183,7 +183,7 @@ select {
   display: flex;
   justify-content: start;
 
-  width: 600px;
+  width: 650px;
 }
 
 .cart-item-left {
@@ -206,7 +206,7 @@ select {
 }
 
 .cart-total-divider {
-  width: 600px;
+  width: 650px;
 }
 
 .total {
