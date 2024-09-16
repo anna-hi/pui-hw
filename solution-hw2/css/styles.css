@@ -154,7 +154,7 @@ select {
 }
 
 .selected-item-image {
-  margin-right: 100px;
+  margin-right: 60px;
 }
 
 .customize-details {
@@ -164,10 +164,9 @@ select {
 }
 
 .shopping-page {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  align-items: end;
 
+  margin-right: 250px;
   text-align: left;
 }
 
