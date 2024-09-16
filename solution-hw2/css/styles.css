@@ -54,6 +54,7 @@ nav h3 {
 
 .active-page {
   background-color: yellow;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -125,7 +126,8 @@ a {
 button {
   background-color: #fff;
   padding: 8px 25px;
-  /* margin: 20px; */
+
+  font-weight: bolder;
 }
 
 button:hover {
@@ -144,6 +146,10 @@ select {
 
 .add-item {
   margin-top: 50px;
+}
+
+.add-item h4 {
+  font-weight: bolder;
 }
 
 .selected-item {
