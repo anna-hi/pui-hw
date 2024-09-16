@@ -7,65 +7,75 @@
   </head>
 
   <body>
-    <a href="./index.html">
-      <img
-        src="../assets/logo/logo-01.svg"
-        width="400"
-        class="nav-image"
-        alt="bun-bun-logo"
-      >
-    </a>
-    <hr >
-    <nav>
-      <a href="./index.html"><h3>PRODUCTS</h3></a>
-      <a href="./shoppingcart.html"><h3>CART</h3></a>
+    <nav class="navigation">
+      <div class="nav-image">
+        <a href="./index.html">
+          <img
+            src="../assets/logo/logo-01.svg"
+            width="400"
+            class="nav-image"
+            alt="bun-bun-logo"
+          >
+        </a>
+      </div>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="./index.html"><h3 class="active-page">PRODUCTS</h3></a>
+          <a href="./shoppingcart.html"><h3>CART</h3></a>
+        </div>
+        <hr >
+        <div class="page-title">
+          <h2>Original cinnamon roll</h2>
+        </div>
+      </div>
     </nav>
 
     <main>
-      <section class="selected-item">
-        <h2>Original cinnamon roll</h2>
-        <img
-          src="../assets/products/original-cinnamon-roll.jpg"
-          width="600"
-          alt="cinammon roll on a plate with cinammon sticks"
-        >
-      </section>
-
-      <section class="customize-details">
-        <h4 id="detail-instructions">
-          Customize our delicious, <br >hand-made cinnamon roll to <br >your
-          liking!
-        </h4>
-        <section>
-          <h4>Glazing:</h4>
-
-          <select name="glazing" id="glazing">
-            <option value="original">Keep original</option>
-            <option value="sugar-milk">Sugar milk</option>
-            <option value="vanilla-milk">Vanilla milk</option>
-            <option value="double-chocolate">Double Chocolate</option>
-          </select>
+      <div class="selected-item">
+        <section class="selected-item-image">
+          <img
+            src="../assets/products/original-cinnamon-roll.jpg"
+            width="600"
+            alt="cinammon roll on a plate with cinammon sticks"
+          >
         </section>
 
-        <section>
-          <h4>Pack Size:</h4>
+        <section class="customize-details">
+          <h4 id="detail-instructions">
+            Customize our delicious, <br >hand-made cinnamon roll to <br >your
+            liking!
+          </h4>
+          <section class="select-options">
+            <h4>Glazing:</h4>
 
-          <select name="pack-size" id="pack-size">
-            <option value="one">1</option>
-            <option value="three">3</option>
-            <option value="six">6</option>
-            <option value="twelve">12</option>
-          </select>
-          <!-- https://www.w3schools.com/tags/tag_select.asp-->
-          <!-- used website to figure out select syntax -->
+            <select name="glazing" id="glazing">
+              <option value="original">Keep original</option>
+              <option value="sugar-milk">Sugar milk</option>
+              <option value="vanilla-milk">Vanilla milk</option>
+              <option value="double-chocolate">Double Chocolate</option>
+            </select>
+          </section>
+
+          <section class="select-options">
+            <h4>Pack Size:</h4>
+
+            <select name="pack-size" id="pack-size">
+              <option value="one">1</option>
+              <option value="three">3</option>
+              <option value="six">6</option>
+              <option value="twelve">12</option>
+            </select>
+            <!-- https://www.w3schools.com/tags/tag_select.asp-->
+            <!-- used website to figure out select syntax -->
+          </section>
+
+          <section class="add-item">
+            <h4>$2.49</h4>
+
+            <button>Add to Cart</button>
+          </section>
         </section>
-
-        <section class="add-item">
-          <h4>$2.49</h4>
-
-          <button>Add to Cart</button>
-        </section>
-      </section>
+      </div>
     </main>
   </body>
 </html>
