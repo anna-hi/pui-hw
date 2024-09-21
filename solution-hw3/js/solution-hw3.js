@@ -59,21 +59,21 @@ for (const sizeOption of packSizeOptions) {
 function displayPrice(newPrice) {
 
     let priceElement = document.getElementById('price');
-    priceElement.innerHTML = newPrice;
+    priceElement.innerHTML = newPrice.toFixed(2);
 }
 
 function glazingChange(event) {
     const priceChange = parseFloat(event.target.value);
 
     const newPrice = (basePrice+priceChange)*selectElementPack.value;
-    displayPrice(newPrice.toFixed(2));
+    displayPrice(newPrice);
 }
 
 function packSizeChange(event) {
     const sizeChange = parseFloat(event.target.value);
 
     const newPrice = (basePrice+parseFloat(selectElementGlazing.value))*sizeChange;
-    displayPrice(newPrice.toFixed(2));
+    displayPrice(newPrice);
 }
 
 
