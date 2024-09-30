@@ -45,11 +45,9 @@ function updateCart() {
 
     const glazingSelect = document.getElementById("glazing");
     const glazingText = glazingSelect.options[glazingSelect.selectedIndex].text;
-    console.log(glazingText);
 
     const packSelect = document.getElementById("pack-size");
     const packText = packSelect.options[packSelect.selectedIndex].text;
-    console.log(packText);
 
     cart.push(new Roll(chosenRoll, glazingText, packText, chosenRollDictionary["basePrice"]));
     console.log(cart);
