@@ -49,8 +49,10 @@ function updateCart() {
     const packText = packSelect.options[packSelect.selectedIndex].text;
 
     cart.push(new Roll(chosenRoll, glazingText, packText, chosenRollDictionary["basePrice"]));
-    console.log(cart);
 }
+
+// https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript
+// Used this code to understand how to find the selected text value of the dropdowns.
 
 function updateRoll(roll) {
     const rollImageElement = roll.element.querySelector('.roll-image');
@@ -77,7 +79,6 @@ function calculateRollPrice(roll) {
     const packPrice = packSizeOptions[roll.size];
 
     totalPrice = (roll.basePrice + glazePrice)*packPrice;
-    console.log(totalPrice);
 
     return totalPrice;
 }
@@ -88,7 +89,6 @@ function calculateTotalPrice() {
         totalPrice += calculateRollPrice(roll);
     }
 
-    console.log(totalPrice);
     const totalPriceElement = document.querySelector('#total-price');
     totalPriceElement.innerText = '$ ' + totalPrice.toFixed(2);
     
@@ -98,8 +98,6 @@ function createRoll(roll) {
     const template = document.querySelector('#roll-template');
     const clone = template.content.cloneNode(true);
     roll.element = clone.querySelector('.individual-cart-item');
-    
-    // console.log(roll.element);
 
     const cartElement = document.querySelector("#rolls-cart");
     cartElement.prepend(roll.element);
@@ -134,6 +132,3 @@ cart.add(roll4);
 for (const roll of cart) {
     createRoll(roll);
 }
-
-// https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript
-// Used this code to understand how to find the selected text value of the dropdowns.
