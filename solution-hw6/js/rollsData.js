@@ -129,7 +129,11 @@ function addNewRoll(rollType, rollGlazing, packSize, basePrice) {
     return roll;
 }
 
-var cart = new Set();
+let cart;
+
+if (cart === undefined) {
+    cart = new Set();
+}
 
 function saveToLocalStorage() {
     const rollArray = Array.from(cart);
