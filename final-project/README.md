@@ -127,33 +127,117 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 Briefly restate your motivation and a short description of your project.
 
+I want to create a personal portfolio as my project in order to jump-start coding my own website for
+ultimate customization. My personal portoflio will consist of a homepage, case study pages, an about
+page, etc. This portfolio will be used to showcase my Product/UX design work. 
+
 ## High-Fi Prototypes
 
 ### *Prototype 1*
 
-![title for prototype1](images/prototype1.png)
+![Homepage](images/prototype1.png)
 
-A brief description and summary of the user feedback (\<100 words, 2 images) 
+For the homepage, my two evaluators mentioned how liked the color scheme and the gradient of the
+background for the hero section. One user specifically thought that the arrow on the hero section
+was clickable and automatically scrolll down the page for her. The other evaluator liked how the
+tags showed what each case study was about. However, based on how they looked, he was unsure if they
+were clickable or not. They also thought the gradient to black background was slightly jarring.
 
 ### *Prototype 2*
 
-…
+![Case Study Page](images/prototype2.png)
+
+For the case study page, the evaluators both mentioned that they liked that I used different colors 
+to categorize the different sections. They both mentioned that the first image blended into the 
+background a bit. One of the evaluators mentioned that the white to black bacground transition seemed 
+jarring. 
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+For the user feedback I got during my evaluations and usability test, I carefully thought through
+their feedback and considered what ideas/critiques I should carry into my future designs. 
+
+For the homepage, I decided to include the interaction that one of my evaluators assumed existed. Her
+surprise that the button didn't do anything made it clear to me that this may be a common assumption
+based on existing webpages out in the world. Also, I thought by including this interaction it may
+make the change from gradient to black background more seamless. This will in turn, fix the issue
+that one of the other evaluators pointed out: the gradient to black background seemed a bit odd. 
+Furthermore, one of the evaluators had mentioned that the tags almost seemed clickable. Thus, I thought
+this was a big problem and decided to make these tags rounder to afford a more tag-like apperance. I 
+also made the tags a different color so they would have a different hierarchy of performance compared
+to the other text in that area.
+
+For the case study page, their main critique was about the initial image on top of the white background.
+To fix this issue, I decided to add a shadow to the intial image in order to differentiate the 
+image from the background. For the other evaluator's critique about the change from black to white
+background, I think my solution helped fix the issue a bit. Additionally, I decided that I didn't 
+think the change from black to white was jarring enough to completely change.
+
 
 ## Updated Designs
 
-Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
+
+![Updated Homepage](images/updatedprototype1.png)
+
+As mentioned before, for the updated homepage I decided to add the interaction component with the
+down arrow in the hero section. I also decided to change the look of the tags so that they would
+seem more like tags. Thus, this updated design features more rounded buttons and an additional
+interaction with the arrow component. 
+
+[Updated Case study Page](images/updatedprototype2.png)
+
+For the case study page, the main feedback I had received was on the initial image at the beginning
+of the page. My updated design adds a shadow to the initial image to separate the image from the
+light background and distinguish where the image ends and where the page begins. Other parts of the
+design were not changed as there was no negative feedback aimed at the rest of the page.
+
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
+During the lab session, I received ample feedback from my classmates. My classmates gave postive 
+feedback on the visual design of the portfolio, especially the hero section. One classmated mentioned
+that the homepage seemed "gallery-like". 
+
+For the homepage, one classmate also mentioned how the intial hero section seemed very artistic
+while the rest of the page felt very functional. So, they recommended that the design of the page
+could stay more consistent, perhaps by adding flowers to the titles of the projects. In keeping 
+with the idea of consistency, they noted that in my portfolio it seemed that my primary color was
+pink so I should try to be consistent with where I decide to use that color. Furthermore, along the
+lines of color, they mentioned that they could tell that my "take a look" button colors were taken
+from the background of the case study image, but it could be more consistent. 
+
+From these critiques, I decided that I did want the artistic style of the homepage hero section to 
+continue throughout the rest of the page. Thus, I decided to take my classmate's advice and add my
+little flower design to the titles of my case studies. I also noted what they thought was my primary
+color, and will certainly keep that in mind for further development of my portfolio when I consider
+what colros to use. For the "take a look" buttons, they didn't have too big of a problem with it, so
+I decided to keep it the way it is, but I may it change it later if needed. 
+
+Finally, for the case study page, my classmates didn't find the black to white jarring, which 
+re-affirmed my previous assumption that it wasn't necessary to change the background color there.
+However, they did mention that keeping some kind of gradient from the homepage to the case study page
+could make the transition easier. I think I am still considering this possible design, so it's 
+possible that will be added.
 
 ## Milestones
 
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words). 
+
+For my weekly milestones, I'm planning on finishing FP3 for next week, finalizing my designs and
+beginning to build an HTML-level webpage to start laying out my designs. For the week of November 11th
+to November 15th, I plan to continue my HTML layouts, and start adding CSS + JavaScript while 
+researching the JS libraries and figuring out houw to use them. 
+
+Then, for the week fo November 18th to November 22nd, I will finish up adding CSS, 
+JavaScript, and try adding the JS libraries. I expect that CSS will be easy to add since I would have
+already defined the colors within my designs, so I would just need to add the CSS in the right places.
+The JavaScript and the JS libraries would most likely take up the bulk of my time during this week.
+I am also considering adding some additional interactive features, such as a progress bar or a 
+return to top button that could potentially be more complicated. 
+
+Finally, for the week of November 25th to November 29th, I assume that I will need some time to
+finish up the project, tie up any loose ends, and figure out any issues I might have. At this point,
+I would be looking for interaction issues and inconsistencies that would need fixing. For the week
+when the project is due, I would expect to do last-minute changes that are needed.
 
 ### *Implementation Plan*
 
@@ -162,39 +246,71 @@ Outline weekly milestones to plan your expected implementation progress until th
   - [ ] ...
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
-  - [ ] FP2 due
+  - [X] FP2 due
+  - [] Finish FP3
+  - [] Finalize designs
+  - [] Start builidng HTML-level model of web-portfolio
 
 - [ ] Week 11 Nov 11 \- Nov 15:  
+  - [] Continue building HTML-level model of web-portfolio
+  - [] Start on CSS + JavaScript
+  - [] Start researching the JS libraries
 - [ ] Week 12 Nov 18 \- Nov 22:   
+  - [] Finish up CSS + JavaScript
+  - [] Try adding JS library stuff
 - [ ] Week 13 Nov 25 \- Nov 29:  
+  - [] Continuing working on project overall
 
   - [ ] Thanksgiving  
-- [ ] Week 14 Dec 2 \- Dec 6:  
+
+- [ ] Week 14 Dec 2 \- Dec 6: 
+  - [] finish any last minute changes 
   - [ ] FP4 due 
 
 ### *Libraries and Other Components*
 
 List the JS libraries and other components (if applicable) that you plan to use. 
-* 
 
+1. Textillate.js
+2. React.js
+3. Anim.js
 
 ## Generative AI Use Plan
 
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
+
+I plan to use Generative AI relatively sparingly when aiding implementation. I will most likely use
+ChatGPT the most often, either when I'm stuck or I need help with wording text on the actual website. 
+I haven't used ChatGPT much for coding questions in the past, so I'm intrigued if it'll be able to 
+answer accurately. I also plan to use ChatGPT to help me better understand the JS libraries I'm using
+and see if its explannations will help me. Additionally, I will try out GitHub Copilot, but I may 
+choose to not use it if I'm not understanding the code it's producing. I want to focus on actually 
+learning what I'm coding, so if Github Copilot doesn't allow me to do that, I will not use it anymore. I have heard that it is helpful, especially for autocompleting when coding.
+
+As mentioned before, I don't plan on using Generative AI tools much when creating this project becuase
+I don't particularly like using Generative AI frequently. Occasionally, the tools are helpful when
+I'm stuck or I need more ideas, but I do feel that it has its limits. Thus, I can't speak much on
+how I plan to use the Generative AI tools since I have no interest in using it that much.
 
 ### *Tool Use*
 
- What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
-
 * ChatGPT  
-  * I will use it for … because it can help me …  
-  * I will not use it for … because it might not be able to help me with …   
-* GitHub Copilot  
+  * I will use it for ideas on how to word certain parts of my portfolio because it can help me easily
+    write things for my portfolio.  
+  * I will potentially use it to help me understand JS libraries because it could explain it in a 
+    summarized fashion.
+  * I will not use Github Copilot for complex coding problems because it may not be helpful.
+* GitHub Copilot
+  * I will not use Github Copilot if I don't understand the code that it's giving me.
+  * I will use it to help me autocomplete functions becuase it will help me code faster.  
 * ...
 
 ### *Responsible Use*
 
 How would you use Generative AI responsibly? 
+
+I would use it to help assist me in my implementation, and I would make sure that I understand the
+content it produces. I would not use Generative AI to completely do my assignment for me or use code
+created by Gen AI that I don't understand.
 
 ---
 
