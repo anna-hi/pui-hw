@@ -152,6 +152,8 @@ to categorize the different sections. They both mentioned that the first image b
 background a bit. One of the evaluators mentioned that the white to black bacground transition seemed 
 jarring. 
 
+https://www.figma.com/proto/j2KQD5n7Iu1W2XclaOTQGP/Portfolio-Things?page-id=1416%3A2&node-id=1713-288&node-type=frame&viewport=-423%2C-1712%2C0.27&t=QDPUsXJj6JobY7oo-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1713%
+
 ## Usability Test
 
 For the user feedback I got during my evaluations and usability test, I carefully thought through
@@ -190,6 +192,8 @@ For the case study page, the main feedback I had received was on the initial ima
 of the page. My updated design adds a shadow to the initial image to separate the image from the
 light background and distinguish where the image ends and where the page begins. Other parts of the
 design were not changed as there was no negative feedback aimed at the rest of the page.
+
+https://www.figma.com/proto/j2KQD5n7Iu1W2XclaOTQGP/Portfolio-Things?page-id=1416%3A2&node-id=1751-478&node-type=frame&viewport=-423%2C-1712%2C0.27&t=QDPUsXJj6JobY7oo-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1713%3A288
 
 
 ## Feedback Summary
