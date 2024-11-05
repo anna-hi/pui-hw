@@ -186,7 +186,7 @@ down arrow in the hero section. I also decided to change the look of the tags so
 seem more like tags. Thus, this updated design features more rounded buttons and an additional
 interaction with the arrow component. 
 
-[Updated Case study Page](images/updatedprototype2.png)
+![Updated Case study Page](images/updatedprototype2.png)
 
 For the case study page, the main feedback I had received was on the initial image at the beginning
 of the page. My updated design adds a shadow to the initial image to separate the image from the
