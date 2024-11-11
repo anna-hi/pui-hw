@@ -1,0 +1,111 @@
+html {
+    background-color: #25201A;
+    font-family: "Pontano Sans";
+}
+nav {
+    box-sizing: border-box;
+    display: flex;
+  
+    width: auto;
+    margin: 40px 140px;
+  }
+  
+  .nav-right {
+    flex-grow: 1;
+  }
+
+
+  
+  .nav-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+
+  }
+
+  .nav-links a, h3 {
+    text-decoration: none;
+    font-size: 16px;
+    color: #E7C8BF;
+    font-weight: 400;
+  }
+
+  main {
+    margin: 40px 140px;
+  }
+
+  #hi-im-anna {
+    color: #FBF8EC;
+    font-family: "Lora", serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px; /* 130% */
+    margin-top: 160px;
+
+    margin-bottom: 0px;
+  }
+
+  #special-a {
+    font-family: "Pinyon Script", cursive;
+    font-size: 75px;
+  }
+
+  #introduction {
+    color: #FBF8EC;
+
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 40px;
+
+    line-height: 130%;
+    margin-top: 15px;
+    font-style: normal;
+  }
+
+  #product-designer {
+    color: #FF81A0;
+  }
+
+.columns {
+    display: flex;
+    margin-top: 120px;
+}
+
+.activity-element {
+    display: flex;
+    justify-content: start;
+    width: 30%;
+    align-items: flex-start;
+  }
+
+  .flower-text {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+  }
+
+  .flower {
+    margin-right: 15px;
+  }
+
+  .italic-text {
+    font-family: "Lora", serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+
+    margin: 0;
+
+    color: #EEEEEE;
+  }
+
+  .subtext {
+    color: #EEEEEE;
+    font-weight: 300;
+    font-size: 16px;
+
+    margin-top: 12px;
+    margin-left: 41px;
+  }
