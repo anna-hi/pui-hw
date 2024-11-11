@@ -70,6 +70,7 @@ nav {
 .columns {
     display: flex;
     margin-top: 120px;
+    gap: 200px;
 }
 
 .activity-element {
@@ -92,7 +93,7 @@ nav {
   .italic-text {
     font-family: "Lora", serif;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
     line-height: 30px;
 
