@@ -1,0 +1,22 @@
+.introduction {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 274px;
+    margin-right: 274px;
+}
+
+.project-title {
+    font-family: 'Lora';
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    flex-shrink: 0;
+    width: 648px;
+}
+
+.project-subtext {
+    font-size: 20px;
+}

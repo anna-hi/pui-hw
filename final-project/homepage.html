@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Pontano+Sans:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <script defer src="js/projects.js"></script>
     <title>Anna Ji</title>
   </head>
   <body>
@@ -55,18 +56,57 @@
               <h4 class="subtext">Studying HCI @ Carnegie Mellon</h4>
             </div>
             <div id="activity-element">
-                <div class="flower-text">
-                  <img
-                    src="images/blueflower.svg"
-                    width="26"
-                    alt="blue flower with yellow center"
-                    class="flower"
-                  />
-                  <h3 class="italic-text">Constantly</h3>
-                </div>
-                <h4 class="subtext">Thinking how to improve human lives</h4>
+              <div class="flower-text">
+                <img
+                  src="images/blueflower.svg"
+                  width="26"
+                  alt="blue flower with yellow center"
+                  class="flower"
+                />
+                <h3 class="italic-text">Constantly</h3>
               </div>
+              <h4 class="subtext">Thinking how to improve human lives</h4>
+            </div>
           </div>
+          <div class="scroll-down">
+            <img src="images/down-arrow.svg" width="60" alt="down arrow" />
+          </div>
+        </div>
+      </section>
+      <section class="featured-projects">
+        <div class="all-projects">
+          <template id="project-template">
+            <div class="project">
+              <a href="./fat-project.html" class="project">
+                <div class="project-description">
+                  <h3 class="title">Simplifying Form Experiences</h3>
+                  <p class="description">
+                    How do we make it easier for faculty to fill out an annual
+                    form? How do we optimize efficiency for the committee who
+                    scores those forms?
+                  </p>
+                  <div class="tags">
+                  </div>
+                  <div class="take-a-look">
+                    <p>Take a look</p>
+                    <img
+                      src="images/right-arrow.svg"
+                      width="20px"
+                      alt="right arrow"
+                    />
+                  </div>
+                </div>
+     
+                  <img
+                    src="images/fat.svg"
+                    width="668px"
+                    alt="dashboard of Faculty Actiity Tracker project with red to orange gradient background"
+                    class="project-cover-image"
+                  />
+              
+              </a>
+            </div>
+          </template>
         </div>
       </section>
     </main>

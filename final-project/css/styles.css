@@ -1,112 +1,194 @@
 html {
-    background-color: #25201A;
-    font-family: "Pontano Sans";
+  background-color: #25201a;
+  font-family: "Pontano Sans";
+  color: #fff;
 }
 nav {
-    box-sizing: border-box;
-    display: flex;
-  
-    width: auto;
-    margin: 40px 140px;
-  }
-  
-  .nav-right {
-    flex-grow: 1;
-  }
+  box-sizing: border-box;
+  display: flex;
 
+  width: auto;
+  margin: 40px 140px;
+}
 
-  
-  .nav-links {
-    flex-grow: 1;
-    display: flex;
-    justify-content: end;
-    gap: 40px;
+.nav-right {
+  flex-grow: 1;
+}
 
-  }
+.nav-links {
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
 
-  .nav-links a, h3 {
-    text-decoration: none;
-    font-size: 16px;
-    color: #E7C8BF;
-    font-weight: 400;
-  }
+.nav-links a,
+h3 {
+  text-decoration: none;
+  font-size: 16px;
+  color: #e7c8bf;
+  font-weight: 400;
+}
 
-  main {
-    margin: 40px 140px;
-  }
+main {
+  margin: 40px 140px;
+}
 
-  #hi-im-anna {
-    color: #FBF8EC;
-    font-family: "Lora", serif;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 65px; /* 130% */
-    margin-top: 160px;
+#hi-im-anna {
+  color: #fbf8ec;
+  font-family: "Lora", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 65px; /* 130% */
+  margin-top: 160px;
 
-    margin-bottom: 0px;
-  }
+  margin-bottom: 0px;
+}
 
-  #special-a {
-    font-family: "Pinyon Script", cursive;
-    font-size: 75px;
-  }
+#special-a {
+  font-family: "Pinyon Script", cursive;
+  font-size: 75px;
+}
 
-  #introduction {
-    color: #FBF8EC;
+#introduction {
+  color: #fbf8ec;
 
-    font-family: "Lora", serif;
-    font-weight: 400;
-    font-size: 40px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 40px;
 
-    line-height: 130%;
-    margin-top: 15px;
-    font-style: normal;
-  }
+  line-height: 130%;
+  margin-top: 15px;
+  font-style: normal;
 
-  #product-designer {
-    color: #FF81A0;
-  }
+  background-image: url();
+}
+
+#product-designer {
+  color: #ff81a0;
+}
 
 .columns {
-    display: flex;
-    margin-top: 120px;
-    gap: 200px;
+  display: flex;
+  margin-top: 120px;
+  gap: 220px;
 }
 
 .activity-element {
-    display: flex;
-    justify-content: start;
-    width: 30%;
-    align-items: flex-start;
-  }
+  display: flex;
+  justify-content: start;
+  width: 30%;
+  align-items: flex-start;
+}
 
-  .flower-text {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: start;
-  }
+.flower-text {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: start;
+}
 
-  .flower {
-    margin-right: 15px;
-  }
+.flower {
+  margin-right: 15px;
+}
 
-  .italic-text {
-    font-family: "Lora", serif;
-    font-size: 22px;
-    font-weight: 300;
-    font-style: italic;
-    line-height: 30px;
+.italic-text {
+  font-family: "Lora", serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 30px;
 
-    margin: 0;
+  margin: 0;
 
-    color: #EEEEEE;
-  }
+  color: #eeeeee;
+}
 
-  .subtext {
-    color: #EEEEEE;
-    font-weight: 300;
-    font-size: 16px;
+.subtext {
+  color: #c7c7c7;
+  font-family: "Pontano Sans";
+  font-weight: 400;
+  font-size: 16px;
 
-    margin-top: 12px;
-    margin-left: 41px;
-  }
+  margin-top: 12px;
+  margin-left: 41px;
+}
+
+.projects {
+  gap: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.project {
+  margin-top: 8%;
+
+  box-sizing: border-box;
+  display: flex;
+  justify-content: start;
+  gap: 109px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.project p {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.title {
+  font-family: "Lora", serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: normal;
+  color: #fbf8ec;
+  margin: 0px;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.tags p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: 1px solid #9b9b9b;
+  background: #25201a;
+}
+
+.project-description {  
+  display: flex;
+  width: 393px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.take-a-look {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+  color: #F7BEA9;
+}
+
+.take-a-look p {
+  font-size: 16px;
+}
