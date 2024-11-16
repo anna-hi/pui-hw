@@ -28,8 +28,6 @@ class Project {
   }
 }
 
-// createProject(new Project("Simplifying Form Experiences"));
-
 for (const project in projects) {
   console.log("ugh");
   createProject(new Project(project));

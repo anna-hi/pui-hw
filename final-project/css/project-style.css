@@ -1,11 +1,10 @@
 .introduction {
     display: flex;
     box-sizing: border-box;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    text-align: start;
-    margin-left: 274px;
-    margin-right: 274px;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .project-title {
@@ -13,10 +12,12 @@
     font-size: 45px;
     font-weight: 500;
     color: #fff;
-    flex-shrink: 0;
-    width: 648px;
+
+    display: flex;
+    text-align: start;
 }
 
 .project-subtext {
     font-size: 20px;
+    color: #F8F8F8;
 }
