@@ -1,7 +1,6 @@
 .introduction {
     display: flex;
     box-sizing: border-box;
-    align-items: center;
     flex-direction: column;
     margin-left: 16%;
     margin-right: 16%;
