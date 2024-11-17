@@ -1,9 +1,12 @@
+html {
+    background-image: linear-gradient(to top, #FFF9F9 0%, #FFF9F9 40%,#25201A 40%,#25201A 100%);
+}
 .introduction {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 .project-title {
@@ -19,4 +22,51 @@
 .project-subtext {
     font-size: 20px;
     color: #F8F8F8;
+}
+
+.content {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.context {
+    display: flex;
+    justify-content: start;
+
+    margin-top: 4%;
+    gap: 83px;
+}
+
+.overview {
+    gap: 83px;
+    width: 80%;
+
+    flex-grow: 1;
+    
+}
+
+.role-overview {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.text-header {
+    font-family: 'Lora';
+    font-size: 18px;
+
+    color: #DC4B4B;
+    font-weight: 500;
+    
+    margin-top: 0;
+}
+
+.body-text {
+    color:#000;
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 160%;
+    margin-top: 0;
 }
