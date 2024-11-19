@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="./css/styles.css" >
+    <title>Shopping Cart</title>
+
+    <script defer src="js/rollCustomize.js"></script>
+    <script defer src="js/rollsData.js"></script>
+  </head>
+
+  <body>
+    <nav class="navigation">
+      <div class="nav-image">
+        <a href="./index.html">
+          <img
+            src="../assets/logo/logo-01.svg"
+            width="400"
+            class="nav-image"
+            alt="bun-bun-logo"
+          >
+        </a>
+      </div>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="./index.html"><h3>PRODUCTS</h3></a>
+          <a href="./shoppingcart.html"><h3 class="active-page">CART</h3></a>
+        </div>
+        <hr >
+        <div class="page-title">
+          <h2>Our hand-made cinnamon rolls</h2>
+        </div>
+      </div>
+    </nav>
+
+    <main class="shopping-page">
+      <div id="rolls-cart">
+        <template id="roll-template">
+          <section class="individual-cart-item">
+            <div class="cart-item-left">
+              <img
+                src="../assets/products/original-cinnamon-roll.jpg"
+                width="200"
+                alt="cinammon roll on a plate with cinammon sticks"
+                class="roll-image"
+              >
+              <p class="remove-button">Remove</p>
+            </div>
+            <div class="cart-item-center">
+              <p id="roll-type">Original Cinnamon Roll</p>
+              <p id="roll-glazing">Glazing: Keep original</p>
+              <p id="pack-size">Pack size: 1</p>
+            </div>
+            <div class="cart-item-price">
+              <h4>$ 2.49</h4>
+            </div>
+          </section>
+      </template>
+    </div>
+      <section>
+        <hr class="cart-total-divider" >
+        <div class="total">
+          <div class="total-left">
+            <h4>Total</h4>
+          </div>
+          <div class="total-right">
+            <h4 id="total-price">$ 29.94</h4>
+            <button>Checkout</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

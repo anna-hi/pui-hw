@@ -1,0 +1,111 @@
+img {
+    border: 3px solid black;
+}
+
+hr {
+    border-top: 3px solid black;
+}
+
+/* https://www.w3schools.com/howto/howto_css_style_hr.asp */
+/* used website to understand syntax for hr CSS styles */
+
+.nav-image {
+    border: none;
+}
+
+nav h3 {
+    font-weight: 400;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: #fff;
+}
+
+a:hover h3 {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+nav, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h2 {
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+main h4 {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.product {
+    padding: 5px;
+}
+
+.product:hover {
+    background-color: yellow;
+
+}
+
+.product-name {
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.product:hover .product-name {
+    font-weight: bold;
+}
+
+.add-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #fff;
+    padding: 8px 25px;
+    margin: 20px;
+
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.customize-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shopping-page {
+    text-align: center;
+}
+
+.remove-button {
+    margin-top: 2px;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cart-total-divider {
+    width: 200px;
+}
+
+
+
