@@ -1,0 +1,41 @@
+footer {
+    background-color: #fff;
+    width: 100vw;
+    position: absolute;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 40px 140px;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    align-items: flex-start;
+}
+
+.footer-right {
+    /* flex-shrink: 0; */
+}
+
+.footer-text h3 {
+    color: #25201a;
+    font-weight: 500;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #25201a;
+    font-weight: 500;
+}
+
+.footer-text h2 {
+    font-family: "Lora", serif;
+    color: #25201a;
+    font-size: 20px;
+    font-weight: 600;
+}
