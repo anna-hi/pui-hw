@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.758a23ef.css",
-    "main.js": "./static/js/main.fdbb49a9.js",
-    "static/js/453.701e3413.chunk.js": "./static/js/453.701e3413.chunk.js",
-    "static/media/background.png": "./static/media/background.ad67884c1779f8ecf816.png",
-    "index.html": "./index.html",
-    "main.758a23ef.css.map": "./static/css/main.758a23ef.css.map",
-    "main.fdbb49a9.js.map": "./static/js/main.fdbb49a9.js.map",
-    "453.701e3413.chunk.js.map": "./static/js/453.701e3413.chunk.js.map"
+    "main.css": "/anna-hi.github.io/pui-hw/final-project1/static/css/main.7902f727.css",
+    "main.js": "/anna-hi.github.io/pui-hw/final-project1/static/js/main.9736b841.js",
+    "static/js/453.701e3413.chunk.js": "/anna-hi.github.io/pui-hw/final-project1/static/js/453.701e3413.chunk.js",
+    "static/media/background.png": "/anna-hi.github.io/pui-hw/final-project1/static/media/background.ad67884c1779f8ecf816.png",
+    "index.html": "/anna-hi.github.io/pui-hw/final-project1/index.html",
+    "main.7902f727.css.map": "/anna-hi.github.io/pui-hw/final-project1/static/css/main.7902f727.css.map",
+    "main.9736b841.js.map": "/anna-hi.github.io/pui-hw/final-project1/static/js/main.9736b841.js.map",
+    "453.701e3413.chunk.js.map": "/anna-hi.github.io/pui-hw/final-project1/static/js/453.701e3413.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.758a23ef.css",
-    "static/js/main.fdbb49a9.js"
+    "static/css/main.7902f727.css",
+    "static/js/main.9736b841.js"
   ]
 }
