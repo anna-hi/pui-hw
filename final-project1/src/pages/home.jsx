@@ -1,6 +1,6 @@
 import HomeProjects from "./home-projects";
 import { motion } from "motion/react";
-import "./home.css";
+import "./css/home.css";
 
 
 export default function home() {
@@ -9,7 +9,7 @@ export default function home() {
       title: "Streamlining Form and Scoring Experiences",
       description:
         "How do we make it easier for faculty to fill out an annual form? How do we optimize efficiency for the committee who scores those forms?",
-      imageFile: "images/fat.svg",
+      imageFile: "images/homepage/fat.png",
       alt: "dashboard of Faculty Activity Tracker project with red to orange gradient background",
       tags: ["Product Design", "UX Design", "Design Systems"],
       link: "/fatProject"
@@ -18,7 +18,7 @@ export default function home() {
       title: "Pairing Mindfulness with Task Organization",
       description:
         "How might we help college students practice mindfulness in a productive and stress-relieving manner?",
-      imageFile: "images/mindful.svg",
+      imageFile: "images/homepage/mindful-cover.png",
       alt: "two phone mockups over blue background with a yellow circle on the top left with a orange star and a blue circle on bottom right with orange star at the top right of it with white curvy lines",
       tags: ["Product Design", "Design Systems", "UX Research"],
       link: "/fatProject"
@@ -27,7 +27,7 @@ export default function home() {
       title: "A Personalized Digital Space for Women",
       description:
         "How might we create a personalized space where women can express their emotions, keep track of their mood, and feel creatively fulfilled?",
-      imageFile: "images/penella-cover.png",
+      imageFile: "images/homepage/penella-cover.png",
       alt: "computer, desktop, and mobile mockup of a website with light pink background",
       tags: ["Product Design", "Design Process", "UX Research"],
       link: "/fatProject"
@@ -61,7 +61,7 @@ export default function home() {
                     }}
                   >
                     <img
-                      src="images/purpleflower.svg"
+                      src="images/homepage/purpleflower.svg"
                       width="26"
                       alt="purple flower with yellow center"
                       className="flower"
@@ -94,7 +94,7 @@ export default function home() {
                     }}
                   >
                     <img
-                      src="images/blueflower.svg"
+                      src="images/homepage/blueflower.svg"
                       width="26"
                       alt="blue flower with yellow center"
                       className="flower"
@@ -106,7 +106,7 @@ export default function home() {
               </div>
             </div>
             <div className="scroll-down">
-              <img src="images/down-arrow.svg" width="60" alt="down arrow" />
+              <img src="images/homepage/down-arrow.svg" width="60" alt="down arrow" />
             </div>
           </div>
           <div className="intro-background"></div>

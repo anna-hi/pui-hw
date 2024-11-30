@@ -1,4 +1,4 @@
-import "./project-styles.css";
+import "./css/project-styles.css";
 import { motion } from "motion/react";
 
 export default function fatProject() {
@@ -25,7 +25,7 @@ export default function fatProject() {
                   product design · design systems
                 </h3>
                 <img
-                  src="images/fat-cover.png"
+                  src="images/fat-project/fat-cover.png"
                   width="100%"
                   alt="mockup of dashboard with two graphs with red bars and cards naming professors"
                 />
@@ -33,7 +33,7 @@ export default function fatProject() {
               <div className="intro-background-color" />
             </div>
           </section>
-          <section className="context content">
+          <section className="two-column content">
             <div className="overview">
               <h3 className="text-header">The Spark</h3>
               <p className="body-text">
@@ -68,11 +68,42 @@ export default function fatProject() {
             </div>
           </section>
         </section>
-        <section class="section-header">
-          <h2>The Problem with the Paper Form</h2>
-        </section>
-        <section class="proj-main content">
-          <h3 className="text-header">3 Key Pain Points</h3>
+        <section>
+          <h2 className="section-header">The Problem with the Paper Form</h2>
+          <div className="proj-main">
+            <div className="content">
+              <h3 className="text-header">3 Key Pain Points</h3>
+              <div class="three-column">
+                <div class="column">
+                  <h4 className="text-med-header">Tedious to Organize</h4>
+                  <p className="body-text">
+                    Faculty tend to fill out the form all at once and must
+                    manually separate by activity type.
+                  </p>
+                </div>
+                <div class="column">
+                  <h4 className="text-med-header">Unable to Edit</h4>
+                  <p className="body-text">
+                    Faculty can't edit activities after they submit. The Merit
+                    Committee members have to manually approve and reject
+                    activities.
+                  </p>
+                </div>
+                <div class="column">
+                  <h4 className="text-med-header">Repetitive Form Boxes</h4>
+                  <p className="body-text">
+                    The same semester/date must be repeated over and over for
+                    each activity.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img
+              src="images/fat-project/paper-form.png"
+              width="100%"
+              alt="orginial paper form with three pages and multiple form boxes"
+            />
+          </div>
         </section>
       </main>
     </div>
