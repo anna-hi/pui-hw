@@ -1,6 +1,7 @@
 import HomeProjects from "./home-projects";
 import { motion } from "motion/react";
 import "./css/home.css";
+import { loadImages } from "../utils/utils";
 
 
 export default function home() {
@@ -61,7 +62,7 @@ export default function home() {
                     }}
                   >
                     <img
-                      src="images/homepage/purpleflower.svg"
+                      src={loadImages("images/homepage/purpleflower.svg")}
                       width="26"
                       alt="purple flower with yellow center"
                       className="flower"
@@ -94,7 +95,7 @@ export default function home() {
                     }}
                   >
                     <img
-                      src="images/homepage/blueflower.svg"
+                      src={loadImages('images/homepage/blueflower.svg')}
                       width="26"
                       alt="blue flower with yellow center"
                       className="flower"
@@ -106,7 +107,10 @@ export default function home() {
               </div>
             </div>
             <div className="scroll-down">
-              <img src="images/homepage/down-arrow.svg" width="60" alt="down arrow" />
+              <img 
+                src={loadImages('images/homepage/down-arrow.svg')}
+                width="60" 
+                alt="down arrow" />
             </div>
           </div>
           <div className="intro-background"></div>

@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
+import { loadImages } from "../utils/utils";
 
 export default function Navbar() {
   return (
@@ -16,7 +17,7 @@ export default function Navbar() {
       >
         <Link to="/">
           <img
-            src="images/pinkflower.svg"
+            src={loadImages('images/pinkflower.svg')}
             width="40"
             className="nav-image"
             alt="pink flower with yellow center"

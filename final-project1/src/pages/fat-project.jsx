@@ -1,3 +1,4 @@
+import { loadImages } from "../utils/utils";
 import "./css/project-styles.css";
 import { motion } from "motion/react";
 
@@ -25,7 +26,7 @@ export default function fatProject() {
                   product design · design systems
                 </h3>
                 <img
-                  src="images/fat-project/fat-cover.png"
+                  src={loadImages("/images/fat-project/fat-cover.png")}
                   width="100%"
                   alt="mockup of dashboard with two graphs with red bars and cards naming professors"
                 />
@@ -99,7 +100,7 @@ export default function fatProject() {
               </div>
             </div>
             <img
-              src="images/fat-project/paper-form.png"
+              src={loadImages("images/fat-project/paper-form.png")}
               width="100%"
               alt="orginial paper form with three pages and multiple form boxes"
             />

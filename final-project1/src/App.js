@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="pui-hw/final-project1/" exact element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/FatProject" element={<FatProject />} />
       </Routes>

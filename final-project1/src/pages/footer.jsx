@@ -1,3 +1,4 @@
+import { loadImages } from "../utils/utils";
 import "./css/footer.css";
 
 export default function Footer() {
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="footer-left footer-text">
           <h3>annaji@andrew.cmu.edu  <span>
               <img
-                src="images/pinkflower.svg"
+                src={loadImages("images/pinkflower.svg")}
                 width="30"
                 className="nav-image"
                 alt="pink flower with yellow center"
