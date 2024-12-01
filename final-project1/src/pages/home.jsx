@@ -11,7 +11,7 @@ export default function home() {
         "How do we make it easier for faculty to fill out an annual form? How do we optimize efficiency for the committee who scores those forms?",
       imageFile: "images/homepage/fat.png",
       alt: "dashboard of Faculty Activity Tracker project with red to orange gradient background",
-      tags: ["Product Design", "UX Design", "Design Systems"],
+      tags: ["product design", "ux design", "design systems"],
       link: "/fatProject"
     },
     {
@@ -20,7 +20,7 @@ export default function home() {
         "How might we help college students practice mindfulness in a productive and stress-relieving manner?",
       imageFile: "images/homepage/mindful-cover.png",
       alt: "two phone mockups over blue background with a yellow circle on the top left with a orange star and a blue circle on bottom right with orange star at the top right of it with white curvy lines",
-      tags: ["Product Design", "Design Systems", "UX Research"],
+      tags: ["product design", "design systems", "ux research"],
       link: "/fatProject"
     },
     {
@@ -29,7 +29,7 @@ export default function home() {
         "How might we create a personalized space where women can express their emotions, keep track of their mood, and feel creatively fulfilled?",
       imageFile: "images/homepage/penella-cover.png",
       alt: "computer, desktop, and mobile mockup of a website with light pink background",
-      tags: ["Product Design", "Design Process", "UX Research"],
+      tags: ["product design", "design process", "ux research"],
       link: "/fatProject"
     }
   ];

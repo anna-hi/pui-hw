@@ -66,11 +66,10 @@ html p {
     justify-content: start;
 
     margin-top: 4%;
-    gap: 83px;
+    gap: 12%;
 }
 
 .overview {
-    gap: 83px;
     width: 80%;
 
     flex-grow: 1;
@@ -113,6 +112,8 @@ html p {
 
     line-height: 160%;
     margin-top: 0;
+
+    margin-bottom: 2%;
 }
 
 .section-header {
@@ -136,6 +137,8 @@ html p {
 .three-column {
     display: flex;
     justify-content: space-between;
+
+    margin-bottom: 2%;
 }
 
 .column {

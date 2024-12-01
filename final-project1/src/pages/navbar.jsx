@@ -25,16 +25,18 @@ export default function Navbar() {
       </motion.div>
       <div className="nav-right">
         <div className="nav-links">
-          <a href="./index.html">
+          <Link to="/" className="nav-individual-link">
             <h3 className="active-page">Work</h3>
-          </a>
-          <a href="./fun.html">
+          </Link>
+          <Link to="/fun" className="nav-individual-link">
             <h3>Fun</h3>
-          </a>
-          <a href="./about.html">
+          </Link>
+          <Link to="/about" className="nav-individual-link">
             <h3>About</h3>
-          </a>
-          {/* <!-- <a href=""><h3>Resume</h3></a> --> */}
+          </Link>
+          <Link to="https://drive.google.com/file/d/1yLEb9JJwInc0XuviAyUEJXIqHC9Z2nax/view?usp=sharing" className="nav-individual-link">
+          <h3>Resume</h3>
+          </Link> 
         </div>
         <div></div>
       </div>
