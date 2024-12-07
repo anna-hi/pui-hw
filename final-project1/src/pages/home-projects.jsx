@@ -7,7 +7,11 @@ export default function HomeProjects({ project }) {
     <Link to={project.link} class="link">
       <div className="project">
         <div className="project-description">
-          <h3 className="title">{project.title}</h3>
+          <div className="title-with-flower">
+            <h3 className="title">{project.title}</h3>
+            <img src={loadImages(project.flower)} width="28px" alt={project.altFlower}/>
+          </div>
+
           <p className="description">{project.description}</p>
           <div className="tags">
             {project.tags.map((tag) => (
@@ -19,7 +23,8 @@ export default function HomeProjects({ project }) {
             <img
               src={loadImages("images/homepage/right-arrow.svg")}
               width="20px"
-              alt="right arrow" />
+              alt="right arrow"
+            />
           </div>
         </div>
         <motion.div whileHover={{ scale: 1.05 }}>

@@ -3,9 +3,9 @@ import "./css/project-styles.css";
 import { motion } from "motion/react";
 import ScrollToTopButton from "./scrollToTopButton";
 
-export default function fatProject() {
+export default function mindfulProject() {
   return (
-    <div id="fat-project" className="project-container-fat">
+    <div id="mindful-project" className="project-container-mindful">
       <main>
         <section class="proj-main">
           <section className="proj-introduction">
@@ -21,14 +21,14 @@ export default function fatProject() {
                 }}
               >
                 <h1 className="project-title">
-                  Streamlining Form and Scoring Experiences
+                  Pairing Mindfulness with Task Organization
                 </h1>
                 <h3 className="project-subtext">
-                  product design · design systems
+                  design systems · ux research
                 </h3>
                 <img
-                  src={loadImages("/images/fat-project/fat-cover.png")}
-                  width="100%"
+                  src={loadImages("/images/mindful-project/mindful-cover.png")}
+                  width="89%"
                   alt="mockup of dashboard with two graphs with red bars and cards naming professors"
                 />
               </motion.div>
@@ -37,36 +37,33 @@ export default function fatProject() {
           </section>
           <section className="two-column content">
             <div className="overview">
-              <h3 className="text-header-fat">The Spark</h3>
+              <h3 className="text-header-mindful">The Spark</h3>
               <p className="body-text">
-                Every year, the College of Media Arts and Design (CAMD) faculty
-                must fill out an exhausting <strong>10-page paper form</strong> to track their
-                completed activities to earn merit. The Merit Committee then
-                sorts through <strong>100s of forms</strong> to approve activities and manually
-                assign scores.{" "}
+                For my senior capstone project, I created Mindful, a mobile app
+                where people can track their tasks, ideas, and find curated
+                music/sounds to study and take breaks. This app will help people
+                to finish work more efficiently to reduce stress and encourage
+                breaks.{" "}
               </p>
               <p className="body-text">
-                This tedious process led our client, Mark Sivak, head of the
-                Merit Committee, to task us to create a digital solution to <strong>
-                streamline the process.
-                </strong>
+                What makes this mindfulness app different from others, is the 
+                combination of task organization with mindfulness. 
               </p>
             </div>
             <div className="role-overview">
               <div id="duration">
-                <h3 className="text-header-fat">Duration</h3>
-                <p className="body-text">1 year | Jan - Dec 2023</p>
+                <h3 className="text-header-mindful">Duration</h3>
+                <p className="body-text">4 months | Jan - Apr 2024</p>
               </div>
               <div id="my-role">
-                <h3 className="text-header-fat">My Role</h3>
-                <p className="body-text">UI/UX Designer</p>
+                <h3 className="text-header-mindful">My Role</h3>
+                <p className="body-text">
+                  UI/UX Designer <br /> UX Researcher
+                </p>
               </div>
               <div id="team">
-                <h3 className="text-header-fat">Team</h3>
-                <p className="body-text">
-                  1 Project Lead, 4 Developers <br /> UX Designers - Anna Ji,
-                  Cynthia Cao, Christine Cho, Helen Miao
-                </p>
+                <h3 className="text-header-mindful">Advisor</h3>
+                <p className="body-text">Evie Hu / Lead UX Designer @ Google</p>
               </div>
             </div>
           </section>
@@ -75,7 +72,7 @@ export default function fatProject() {
           <h2 className="section-header">The Problem with the Paper Form</h2>
           <div className="proj-main">
             <div className="content">
-              <h3 className="text-header-fat">3 Key Pain Points</h3>
+              <h3 className="text-header-mindful">3 Key Pain Points</h3>
               <div class="three-column">
                 <div class="column">
                   <h4 className="text-med-header">Tedious to Organize</h4>

@@ -1,6 +1,7 @@
 html p {
   font-family: "Pontano Sans";
 }
+
 .intro-background-color {
   background-color: #25201a;
   background-size: cover;
@@ -16,8 +17,12 @@ html p {
   z-index: 1;
 }
 
-.project-container {
+.project-container-fat {
   background-color: #fff9f9;
+}
+
+.project-container-mindful {
+  background-color: #fff;
 }
 
 .proj-introduction {
@@ -68,9 +73,8 @@ html p {
 }
 
 .overview {
-  width: 80%;
-
-  flex-grow: 1;
+  width: 65%;
+  max-width: 450px;
 }
 
 .role-overview {
@@ -78,17 +82,23 @@ html p {
   flex-direction: column;
 
   gap: 12px;
+  max-width: 240px;
 }
 
-.text-header {
+.text-header-fat,
+.text-header-mindful {
   font-family: "Lora";
-  font-size: 18px;
+  font-size: 20px;
   flex-grow: 1;
 
   color: #dc4b4b;
   font-weight: 600;
 
   margin-top: 0;
+}
+
+.text-header-mindful {
+  color: #2828a3;
 }
 
 .text-med-header {
@@ -140,4 +150,33 @@ html p {
 
 .column {
   max-width: 240px;
+}
+
+/* scroll to top start */
+.scroll-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 1000;
+  background-color: #25201a;
+  color: #25201a;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button {
+  background-color: #25201a;
+  color: #25201a;
+  border: 0;
+}
+
+.scroll-to-top:hover {
+  background-color: #25201a;
+  color: var(--foreground-rgb);
 }

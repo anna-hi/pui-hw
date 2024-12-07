@@ -4,7 +4,6 @@ html {
   color: #fff;
 }
 
-
 .background {
   background-color: #25201a;
 }
@@ -22,7 +21,6 @@ nav {
   position: relative;
 }
 
-
 .nav-right {
   flex-grow: 1;
 }
@@ -36,7 +34,6 @@ nav {
 
 .nav-individual-link {
   position: relative;
-  
 }
 
 .nav-individual-link::after {
@@ -47,7 +44,9 @@ nav {
   width: 0;
   height: 2px;
   background-color: currentColor;
-  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+  transition:
+    width 0.3s ease-in-out,
+    left 0.3s ease-in-out;
   transform: translateX(-50%);
 }
 
@@ -92,6 +91,7 @@ h3 {
   position: relative;
 
   margin-top: 15vh;
+  height: 70vh;
 }
 
 #introduction {
@@ -156,7 +156,7 @@ h3 {
 }
 
 .all-projects {
-  margin-top: 4%;
+  margin-top: 0;
   margin-bottom: 4%;
   gap: 100px;
   display: flex;
@@ -175,7 +175,6 @@ h3 {
   margin-top: 8%;
   flex-wrap: wrap;
 
-  /* box-sizing: border-box; */
   display: flex;
   justify-content: start;
   gap: 109px;
@@ -199,6 +198,8 @@ h3 {
   line-height: normal;
   color: #fbf8ec;
   margin: 0px;
+
+  width: 80%;
 }
 
 .tags {
@@ -228,6 +229,8 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
+
+  flex-shrink: 1;
 }
 
 .take-a-look {
@@ -242,12 +245,20 @@ h3 {
   font-size: 16px;
 }
 
+.title-with-flower {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
 .intro-background {
   /* background: linear-gradient(130deg, rgb(7, 51, 58) 0%, rgb(54, 4, 30) 100%); */
   background-image: url("../../../public/images/homepage/background.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  max-height: 100%;
   position: absolute;
   z-index: 0;
   top: 0;

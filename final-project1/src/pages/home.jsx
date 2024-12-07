@@ -11,7 +11,9 @@ export default function home() {
       description:
         "How do we make it easier for faculty to fill out an annual form? How do we optimize efficiency for the committee who scores those forms?",
       imageFile: "images/homepage/fat.png",
+      flower: "images/homepage/fat-flower.svg",
       alt: "dashboard of Faculty Activity Tracker project with red to orange gradient background",
+      altFlower: "reddish-pink flower with yellow center",
       tags: ["product design", "ux design", "design systems"],
       link: "/fatProject"
     },
@@ -20,16 +22,20 @@ export default function home() {
       description:
         "How might we help college students practice mindfulness in a productive and stress-relieving manner?",
       imageFile: "images/homepage/mindful-cover.png",
+      flower: "images/homepage/mindful-flower.svg",
       alt: "two phone mockups over blue background with a yellow circle on the top left with a orange star and a blue circle on bottom right with orange star at the top right of it with white curvy lines",
+      altFlower: "blue flower with yellow center",
       tags: ["product design", "design systems", "ux research"],
-      link: "/fatProject"
+      link: "/mindfulProject"
     },
     {
       title: "A Personalized Digital Space for Women",
       description:
         "How might we create a personalized space where women can express their emotions, keep track of their mood, and feel creatively fulfilled?",
       imageFile: "images/homepage/penella-cover.png",
+      flower: "images/homepage/penella-flower.svg",
       alt: "computer, desktop, and mobile mockup of a website with light pink background",
+      altFlower: "light pink flower with brown center",
       tags: ["product design", "design process", "ux research"],
       link: "/fatProject"
     }
