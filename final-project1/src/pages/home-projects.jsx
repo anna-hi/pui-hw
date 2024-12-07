@@ -27,10 +27,9 @@ export default function HomeProjects({ project }) {
             />
           </div>
         </div>
-        <motion.div whileHover={{ scale: 1.05 }}>
+        <motion.div whileHover={{ scale: 1.05 }} class ="project-image">
           <img
             src={loadImages(project.imageFile)}
-            width="650px"
             alt={project.alt}
             className="project-cover-image"
           />
