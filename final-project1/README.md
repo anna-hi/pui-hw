@@ -18,12 +18,23 @@ Describe your website (300 words).
 * What information do you convey with your website?   
 * How is it interesting and engaging? 
 
+The purpose of my website is to act as my personal portfolio for my UX work. This portfolio will be used when I apply to jobs or other opportunities where I need to showcase my work. 
+
+The target audience is recruiters, hiring managers, and also myself as I would be a primary user of my own website. This audience, excluding myself, would most likely spend minimal time on my website. Thus, it's important that the design of my website would need to be extremely clear and In my website, I aim to convey that I am a product designer with strong visual, product design, and reserach skills. The design of the website itself is an opportunity to showcase that information. On the website, the user will be able to view my different projects and see my resume. The individual project pages will have details about the timeline and a brief overview of the project. Due to the time constriction for this project, the individual project pages are shorter than they normally would be, but showcase how the beginning of each individual project would look like.
+
+This website showcases a lot of fun, small interactions that help the website be fun and engaging. There are small animations with my playful flowers as well as some hover animations that make the website more interactive as there is feedback on hover. Finally, the website offers a scroll to top button which acts as a fun and helpful interaction for the user for the individual projects. The webiste is also engaging through my digitally drawn flowers, use of color, andthe unique images that showcase my UX work.
+
 ## Part 2: User Interaction
 
 How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
 
 1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
+2. Load. Load homepage. (top left flower should "bloom")
+3. Load. Load homepage. (the purple and blue flower should have a raise spinning animation)
+4. Hover. Hover on navbar tabs. (a line should dynamically appear when you hover)
+5. Hover. Hover on any of the project images on homepage. (the image should slightly expand)
+6. Load. Load any individual project page. (content appearing animation)
+7. 
 
 ## Part 3: External Tool
 
@@ -111,11 +122,11 @@ Document the changes and progress of your project. How have you followed or chan
 
 ## Implementation Plan Updates
 
-- [ ] ...
+- at this stage of the project, I had initially decided against using React.js which was written in my FP2. I also decided that I wouldn't be able to implement every single page of my portfolio so I decided to limit it to the homepage and the individual project pages. Here I was also informed by my TA that I needed to add some kind of functionality beyond some JS library produced interactions. So, my next step was figuring out what kind of functionality would make sense for my portfolio without ruining the user experience aspect of the portfolio. Something that I could add to help my portfolio rather than just added as part of the requirements for the final project.
 
 ## Generative AI Use Plan Updates
 
-- [ ] ...
+At this point, I realized I wouldn't actually be using ChatGPT for help for writing my words as I already had a lot of written words from my previous portfolio. In addition, in terms of Github CoPilot, I didn't need to use it while coding so perhaps I won't be using any Generative AI for this project.
 
 Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
 

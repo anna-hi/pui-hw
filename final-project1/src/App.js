@@ -6,6 +6,7 @@ import Footer from "./pages/footer";
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./pages/scrollToTop";
+import ScrollToTopButton from "./pages/scrollToTopButton";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       </Routes>
       <Footer />
       <ScrollToTop />
+      <ScrollToTopButton />
     </BrowserRouter>
   );
 }
