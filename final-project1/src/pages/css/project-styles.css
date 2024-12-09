@@ -17,6 +17,12 @@ html p {
   z-index: 1;
 }
 
+.proj-main {
+  padding: 40px 140px;
+}
+
+/* main background color of individual projects */
+
 .project-container-fat {
   background-color: #fff9f9;
 }
@@ -24,6 +30,12 @@ html p {
 .project-container-mindful {
   background-color: #fff;
 }
+
+.project-container-penella {
+  background-color: #FFFBF6;
+}
+
+/* css for introduction with title/image */
 
 .proj-introduction {
   display: flex;
@@ -59,6 +71,9 @@ html p {
   justify-content: center;
 }
 
+
+/* margins for content */
+
 .content {
   margin-left: 12%;
   margin-right: 12%;
@@ -67,6 +82,8 @@ html p {
 .paragraph-section {
   margin-bottom: 8%;
 }
+
+/* columns */
 
 .one-column {
   max-width: 75%;
@@ -79,6 +96,8 @@ html p {
   margin-top: 4%;
   gap: 10%;
 }
+
+/* beginning overview */
 
 .overview {
   width: 65%;
@@ -93,8 +112,11 @@ html p {
   max-width: 240px;
 }
 
+/*text headers*/
+
 .text-header-fat,
-.text-header-mindful {
+.text-header-mindful,
+.text-header-penella {
   font-family: "Lora";
   font-size: 20px;
   flex-grow: 1;
@@ -109,6 +131,10 @@ html p {
   color: #5963B1;
 }
 
+.text-header-penella {
+  color: #F2743E;
+}
+
 .text-med-header {
   font-size: 18px;
   font-family: "Pontano Sans";
@@ -118,17 +144,6 @@ html p {
 
   margin-top: 0;
   margin-bottom: 9px;
-}
-
-.body-text {
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
-
-  line-height: 160%;
-  margin-top: 0;
-
-  margin-bottom: 2%;
 }
 
 .section-header-mindful, 
@@ -157,8 +172,15 @@ html p {
   padding: 6%;
 }
 
-.proj-main {
-  padding: 40px 140px;
+.body-text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 160%;
+  margin-top: 0;
+
+  margin-bottom: 2%;
 }
 
 .three-column {
@@ -213,4 +235,25 @@ html p {
 .scroll-to-top:hover {
   background-color: #25201a;
   color: var(--foreground-rgb);
+}
+
+/* view image enlarged */
+.image-viewer {
+  cursor: zoom-in;
+}
+.image-viewer-modal {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-viewer-modal-content {
+  width: 60%;
+  height: 60%;
 }

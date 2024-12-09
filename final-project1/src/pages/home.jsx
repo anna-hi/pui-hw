@@ -37,7 +37,7 @@ export default function home() {
       alt: "computer, desktop, and mobile mockup of a website with light pink background",
       altFlower: "light pink flower with brown center",
       tags: ["product design", "design process", "ux research"],
-      link: "/fatProject"
+      link: "/penellaProject"
     }
   ];
   return (

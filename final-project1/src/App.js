@@ -1,6 +1,7 @@
 import Home from "./pages/home";
-import FatProject from "./pages/fat-project";
-import MindfulProject from "./pages/mindful-project";
+import FatProject from "./pages/projects/fat-project";
+import MindfulProject from "./pages/projects/mindful-project";
+import PenellaProject from "./pages/projects/penella-project";
 import Navbar from "./pages/navbar";
 import Footer from "./pages/footer";
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/FatProject" element={<FatProject />} />
         <Route path="/MindfulProject" element={<MindfulProject />} />
+        <Route path="/PenellaProject" element={<PenellaProject />} />
       </Routes>
       <Footer />
       <ScrollToTop />

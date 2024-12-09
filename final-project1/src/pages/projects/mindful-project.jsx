@@ -1,7 +1,7 @@
-import { loadImages } from "../utils/utils";
-import "./css/project-styles.css";
-import ScrollToTopButton from "./scrollToTopButton";
-import ProjectHeader from "./project-header";
+import { loadImages } from "../../utils/utils";
+import "../css/project-styles.css";
+import ImageViewer from "../image-viewer";
+import ProjectHeader from "../project-header";
 
 export default function MindfulProject() {
   const mindful = {
@@ -37,17 +37,17 @@ export default function MindfulProject() {
               </p>
             </div>
             <div className="role-overview">
-              <div id="duration">
+              <div className="duration">
                 <h3 className="text-header-mindful">Duration</h3>
                 <p className="body-text">4 months | Jan - Apr 2024</p>
               </div>
-              <div id="my-role">
+              <div className="my-role">
                 <h3 className="text-header-mindful">My Role</h3>
                 <p className="body-text">
                   UI/UX Designer <br /> UX Researcher
                 </p>
               </div>
-              <div id="team">
+              <div className="team">
                 <h3 className="text-header-mindful">Advisor</h3>
                 <p className="body-text">Evie Hu / Lead UX Designer @ Google</p>
               </div>
@@ -84,6 +84,12 @@ export default function MindfulProject() {
                 </ol>
               </div>
             </div>
+            <div className="image-big-view">
+              <ImageViewer
+                src={loadImages("images/mindful-project/mindful-images.png")}
+                alt={"three mobile phone mockups of Mindful project"}
+              />
+            </div>
             <img
               src={loadImages("images/mindful-project/mindful-images.png")}
               width="80%"
@@ -92,7 +98,6 @@ export default function MindfulProject() {
             />
           </div>
         </section>
-        <ScrollToTopButton />
       </main>
     </div>
   );

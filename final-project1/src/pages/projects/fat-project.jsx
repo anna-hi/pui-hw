@@ -1,6 +1,6 @@
-import { loadImages } from "../utils/utils";
-import "./css/project-styles.css";
-import ProjectHeader from "./project-header";
+import { loadImages } from "../../utils/utils";
+import "../css/project-styles.css";
+import ProjectHeader from "../project-header";
 
 export default function FatProject() {
   const fat = {
@@ -34,15 +34,15 @@ export default function FatProject() {
               </p>
             </div>
             <div className="role-overview">
-              <div id="duration">
+              <div className="duration">
                 <h3 className="text-header-fat">Duration</h3>
                 <p className="body-text">1 year | Jan - Dec 2023</p>
               </div>
-              <div id="my-role">
+              <div className="my-role">
                 <h3 className="text-header-fat">My Role</h3>
                 <p className="body-text">UI/UX Designer</p>
               </div>
-              <div id="team">
+              <div className="team">
                 <h3 className="text-header-fat">Team</h3>
                 <p className="body-text">
                   1 Project Lead, 4 Developers <br /> UX Designers - Anna Ji,
@@ -61,14 +61,14 @@ export default function FatProject() {
               <div className="paragraph-section">
                 <h3 className="text-header-fat">3 Key Pain Points</h3>
                 <div class="three-column">
-                  <div class="column">
+                  <div className="column">
                     <h4 className="text-med-header">Tedious to Organize</h4>
                     <p className="body-text">
                       Faculty tend to fill out the form all at once and must
                       manually separate by activity type.
                     </p>
                   </div>
-                  <div class="column">
+                  <div className="column">
                     <h4 className="text-med-header">Unable to Edit</h4>
                     <p className="body-text">
                       Faculty can't edit activities after they submit. The Merit
@@ -76,7 +76,7 @@ export default function FatProject() {
                       activities.
                     </p>
                   </div>
-                  <div class="column">
+                  <div className="column">
                     <h4 className="text-med-header">Repetitive Form Boxes</h4>
                     <p className="body-text">
                       The same semester/date must be repeated over and over for
