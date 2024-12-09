@@ -29,12 +29,6 @@ export default function Navbar() {
           <Link to="/" className="nav-individual-link">
             <h3 className="active-page">Work</h3>
           </Link>
-          <Link to="/fun" className="nav-individual-link">
-            <h3>Fun</h3>
-          </Link>
-          <Link to="/about" className="nav-individual-link">
-            <h3>About</h3>
-          </Link>
           <Link to="https://drive.google.com/file/d/1yLEb9JJwInc0XuviAyUEJXIqHC9Z2nax/view?usp=sharing" className="nav-individual-link">
           <h3>Resume</h3>
           </Link> 
