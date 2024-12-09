@@ -2,14 +2,36 @@ import { loadImages } from "../utils/utils";
 import "./css/project-styles.css";
 import { motion } from "motion/react";
 import ScrollToTopButton from "./scrollToTopButton";
+import { useEffect, useRef} from "react";
 
-export default function mindfulProject() {
+export default function MindfulProject() {
+  const contentRef = useRef(null);
+  const backgroundRef = useRef(null);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      // Create a ResizeObserver to track changes
+      // https://react.dev/reference/react/useRef
+      const resizeObserver = new ResizeObserver((entries) => {
+        entries.forEach((entry) => {
+          if (backgroundRef.current) {
+            backgroundRef.current.style.height = `${entry.contentRect.height}px`; // Update height on changes
+          }
+        });
+      });
+      resizeObserver.observe(contentRef.current); // Start observing the element
+
+      return () => {
+        resizeObserver.disconnect(); // Cleanup on component unmount
+      };
+    }
+  }, []);
   return (
     <div id="mindful-project" className="project-container-mindful">
       <main>
         <section class="proj-main">
           <section className="proj-introduction">
-            <div className="proj-introduction-content">
+            <div className="proj-introduction-content" ref={contentRef}>
               <motion.div
                 className="box"
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -32,22 +54,26 @@ export default function mindfulProject() {
                   alt="mockup of dashboard with two graphs with red bars and cards naming professors"
                 />
               </motion.div>
-              <div className="intro-background-color" />
+              <div className="intro-background-color" ref={backgroundRef} />
             </div>
           </section>
           <section className="two-column content">
             <div className="overview">
-              <h3 className="text-header-mindful">The Spark</h3>
+              <h3 className="text-header-mindful">Helping My Friends</h3>
               <p className="body-text">
-                For my senior capstone project, I created Mindful, a mobile app
-                where people can track their tasks, ideas, and find curated
-                music/sounds to study and take breaks. This app will help people
-                to finish work more efficiently to reduce stress and encourage
-                breaks.{" "}
+                During my senior year, many of my friends were overloaded with
+                coursework and incredibly stressed out. For my senior capstone
+                project, I created Mindful, a mobile app where students can
+                track their tasks, ideas, and find curated music/sounds to study{" "}
+                <strong>
+                  <i>and take breaks</i>
+                </strong>
+                . This app will help students finish work more efficiently to
+                reduce stress and encourage breaks.{" "}
               </p>
               <p className="body-text">
-                What makes this mindfulness app different from others, is the 
-                combination of task organization with mindfulness. 
+                What makes this mindfulness app different from others, is the
+                combination of task organization with mindfulness.
               </p>
             </div>
             <div className="role-overview">
@@ -68,40 +94,35 @@ export default function mindfulProject() {
             </div>
           </section>
         </section>
+        <div className="section-header-mindful">
+          Many students feel overwhelmed by the number of tasks they must
+          complete.
+        </div>
         <section>
-          <h2 className="section-header">The Problem with the Paper Form</h2>
           <div className="proj-main">
             <div className="content">
-              <h3 className="text-header-mindful">3 Key Pain Points</h3>
-              <div class="three-column">
-                <div class="column">
-                  <h4 className="text-med-header">Tedious to Organize</h4>
-                  <p className="body-text">
-                    Faculty tend to fill out the form all at once and must
-                    manually separate by activity type.
-                  </p>
-                </div>
-                <div class="column">
-                  <h4 className="text-med-header">Unable to Edit</h4>
-                  <p className="body-text">
-                    Faculty can't edit activities after they submit. The Merit
-                    Committee members have to manually approve and reject
-                    activities.
-                  </p>
-                </div>
-                <div class="column">
-                  <h4 className="text-med-header">Repetitive Form Boxes</h4>
-                  <p className="body-text">
-                    The same semester/date must be repeated over and over for
-                    each activity.
-                  </p>
-                </div>
+            <div className="paragraph-section">
+              <h3 className="text-header-mindful">
+                5 Semi-Structured Interviews
+              </h3>
+              <p className="body-text one-column">
+                The sheer amount of work that must be finished can paralyze a
+                person, negatively affecting their productivity and mental
+                health. This app will allow people to manage their work
+                productively and take well-needed breaks.
+              </p>
+              <ol className="indented-listed">
+                <li className="text-med-header">Busy people are scared of wasting time</li>
+                <li className="text-med-header">People would rather focus on work than meditate</li>
+                <li className="text-med-header">Meditaiton apps are not often used among students</li>
+              </ol>
               </div>
             </div>
             <img
-              src={loadImages("images/fat-project/paper-form.png")}
-              width="100%"
-              alt="orginial paper form with three pages and multiple form boxes"
+              src={loadImages("images/mindful-project/mindful-images.png")}
+              width="80%"
+              alt="three mobile phone mockups of Mindful project"
+              className="center-image"
             />
           </div>
         </section>

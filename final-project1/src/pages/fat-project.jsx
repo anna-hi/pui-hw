@@ -95,9 +95,10 @@ export default function FatProject() {
           </section>
         </section>
         <section>
-          <h2 className="section-header">The Problem with the Paper Form</h2>
+          <h2 className="section-header-fat">The Problem with the Paper Form</h2>
           <div className="proj-main">
             <div className="content">
+            <div className="paragraph-section">
               <h3 className="text-header-fat">3 Key Pain Points</h3>
               <div class="three-column">
                 <div class="column">
@@ -122,6 +123,7 @@ export default function FatProject() {
                     each activity.
                   </p>
                 </div>
+              </div>
               </div>
             </div>
             <img

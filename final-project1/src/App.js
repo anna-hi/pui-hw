@@ -4,13 +4,13 @@ import MindfulProject from "./pages/mindful-project";
 import Navbar from "./pages/navbar";
 import Footer from "./pages/footer";
 import "./App.css";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import ScrollToTop from "./pages/scrollToTop";
 import ScrollToTopButton from "./pages/scrollToTopButton";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="pui-hw/final-project1/" exact element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
       <Footer />
       <ScrollToTop />
       <ScrollToTopButton />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
