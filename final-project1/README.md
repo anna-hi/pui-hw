@@ -46,13 +46,25 @@ Describe what important external tool you used (JavaScript library, Web API, ani
    * What does it add to your website? (2 sentences max)  
 2. Name of tool2
 
+1. React.js
+
+I wanted to use React to familiarize myself with the framework as I know most developers in the real world would not be coding in vanilla JS. In addition, I think using React would also help me simplify some things as opposed to not using it. I used it for the entirety of the proect. It doesn't necessarily add anything directly to my website but more for the actual code. 
+
+2. Motion (JS animation library)
+
+I chose to use Motion because it helped simplify adding animations to my website. Motion offered alot of functions that were easy to understand from its documents as opposed to other JS libraries. I used it for load, scroll, and hover animations. It makes my website more fun and engaging to interact with.
+
 ## Part 4: Design Iteration
 
 Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
 
+During group critique session in lab, the main suggestion that was made was to include my digitally drawn flowers with the project names in order to maintain the same appeal as the hero section. I decided to include this as I thought that it would help the visual appeal of the website as you scrolled. Otherwise, there was relatively minimal critique on the design of the website. 
+
 ## Part 5: Implementation Challenge
 
 What challenges did you experience in implementing your website? (2-4 sentences max)
+
+The main challenges I had while implementing was responsiveness and routing issues when using React. In my individual project pages, I had included a different colored background at the top of the page, and that was extremely difficult to deal with for responsiveness. For routing, there were some complications with React and I referred to Lab E instructions for help.
 
 ## Part 6: Generative AI Use and Reflection
 
@@ -75,19 +87,21 @@ For the following aspects of your project, edit the corresponding table cell to 
 | Tool2| Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
 | Tool2 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
 
+Github CoPilot | Usage | No | No | No | Yes | No
+Productivity | Productivity | N/A  | N/A | N/A | 6 | N/A
 
 ### Usage Reflection
 
 > Impact on your design and plan 
 * It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: Github CoPilot
+
+In my initial plan, I decided that I would use Github CoPilot sparingly and I did exactly that. When I feel stuck when I'm writing code, my first instinct is to look it up online rather than asking Github CoPilot. I think I'm wary of excessive code that it may output so I would rather try to figure it out on my own instead. 
+
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
-* GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: ChatGPT
+
+I ended up not using ChatGPT at all becuase I didn't need it to generate words for me because I had already written down alot of the text I would use for the portfolio. I also chose not to ask it coding questions because I would either figure it out on my own or ask the TA or others for advice.
 
 > Use patterns
 * I accepted the generations when …  For example, 
@@ -105,6 +119,10 @@ For the following aspects of your project, edit the corresponding table cell to 
 * Cons
   1. Tool1: 
   2. Tool2:
+
+### Appendix:
+
+Screenshots from Waze
 
 
 ### Usage Log
@@ -150,7 +168,7 @@ page, etc. This portfolio will be used to showcase my Product/UX design work.
 
 For the homepage, my two evaluators mentioned how liked the color scheme and the gradient of the
 background for the hero section. One user specifically thought that the arrow on the hero section
-was clickable and automatically scrolll down the page for her. The other evaluator liked how the
+was clickable and automatically scroll down the page for her. The other evaluator liked how the
 tags showed what each case study was about. However, based on how they looked, he was unsure if they
 were clickable or not. They also thought the gradient to black background was slightly jarring.
 

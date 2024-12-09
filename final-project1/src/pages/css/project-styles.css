@@ -69,7 +69,7 @@ html p {
   justify-content: start;
 
   margin-top: 4%;
-  gap: 12%;
+  gap: 10%;
 }
 
 .overview {
@@ -144,6 +144,7 @@ html p {
 .three-column {
   display: flex;
   justify-content: space-between;
+  column-gap: 16px;
 
   margin-bottom: 2%;
 }

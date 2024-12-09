@@ -2,14 +2,37 @@ import { loadImages } from "../utils/utils";
 import "./css/project-styles.css";
 import { motion } from "motion/react";
 import ScrollToTopButton from "./scrollToTopButton";
+import { useEffect, useRef } from 'react';
 
-export default function fatProject() {
+
+export default function FatProject() {
+  const contentRef = useRef(null);
+  const backgroundRef = useRef(null);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      // Create a ResizeObserver to track changes
+      // https://react.dev/reference/react/useRef
+      const resizeObserver = new ResizeObserver((entries) => {
+        entries.forEach((entry) => {
+          if (backgroundRef.current) {
+            backgroundRef.current.style.height = `${entry.contentRect.height}px`; // Update height on changes
+          }
+        });
+      });
+      resizeObserver.observe(contentRef.current); // Start observing the element
+
+      return () => {
+        resizeObserver.disconnect(); // Cleanup on component unmount
+      };
+    }
+  }, []);
   return (
     <div id="fat-project" className="project-container-fat">
       <main>
         <section class="proj-main">
           <section className="proj-introduction">
-            <div className="proj-introduction-content">
+            <div className="proj-introduction-content" ref={contentRef}>
               <motion.div
                 className="box"
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -32,7 +55,7 @@ export default function fatProject() {
                   alt="mockup of dashboard with two graphs with red bars and cards naming professors"
                 />
               </motion.div>
-              <div className="intro-background-color" />
+              <div className="intro-background-color" ref={backgroundRef} />
             </div>
           </section>
           <section className="two-column content">
