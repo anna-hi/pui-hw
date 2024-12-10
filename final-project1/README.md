@@ -11,13 +11,6 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 
 ## Part 1: Website Description
 
-Describe your website (300 words).
-
-* What is the purpose of your website?   
-* Who is the target audience?  
-* What information do you convey with your website?   
-* How is it interesting and engaging? 
-
 The purpose of my website is to act as my personal portfolio for my UX work. This portfolio will be used when I apply to jobs or other opportunities where I need to showcase my work. 
 
 The target audience is recruiters, hiring managers, and also myself as I would be a primary user of my own website. This audience, excluding myself, would most likely spend minimal time on my website. Thus, it's important that the design of my website would need to be extremely clear and In my website, I aim to convey that I am a product designer with strong visual, product design, and reserach skills. The design of the website itself is an opportunity to showcase that information. On the website, the user will be able to view my different projects and see my resume. The individual project pages will have details about the timeline and a brief overview of the project. Due to the time constriction for this project, the individual project pages are shorter than they normally would be, but showcase how the beginning of each individual project would look like.
@@ -45,19 +38,16 @@ How a user would interact with your website? For each step, briefly but clearly 
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
 
-1. Name of tool1  
-   * Why did you choose to use it over other alternatives? (2 sentences max)  
-   * How you used it? (2 sentences max)  
-   * What does it add to your website? (2 sentences max)  
-2. Name of tool2
-
 1. React.js
-
-I wanted to use React to familiarize myself with the framework as I know most developers in the real world would not be coding in vanilla JS. In addition, I think using React would also help me simplify some things as opposed to not using it. I used it for the entirety of the proect. It doesn't necessarily add anything directly to my website but more for the actual code. 
+  * I wanted to use React to familiarize myself with the framework as I know most developers in the real world would not be coding in vanilla JS. In addition, I think using React would also help me simplify some things as opposed to not using it.
+  * I used it for the entirety of the proect. 
+  * It doesn't necessarily add anything directly to my website but more for the actual code. 
 
 2. Motion (JS animation library)
 
-I chose to use Motion because it helped simplify adding animations to my website. Motion offered alot of functions that were easy to understand from its documents as opposed to other JS libraries. I used it for load, scroll, and hover animations. It makes my website more fun and engaging to interact with.
+  * I chose to use Motion because it helped simplify adding animations to my website. Motion offered alot of functions that were easy to understand from its documents as opposed to other JS libraries.
+  * I used it for load, scroll, and hover animations. 
+  * It makes my website more fun and engaging to interact with.
 
 ## Part 4: Design Iteration
 
@@ -87,11 +77,6 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 | Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
-| Tool2| Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool2 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
-
 Github CoPilot | Usage | No | No | No | Yes | No
 Productivity | Productivity | N/A  | N/A | N/A | 6 | N/A
 
@@ -106,17 +91,11 @@ In my initial plan, I decided that I would use Github CoPilot sparingly and I di
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
   1. Tool1: ChatGPT
 
-I ended up not using ChatGPT at all becuase I didn't need it to generate words for me because I had already written down alot of the text I would use for the portfolio. I also chose not to ask it coding questions because I would either figure it out on my own or ask the TA or others for advice.
+I ended up not using ChatGPT at all becuase I didn't need it to generate words for me because I had already written down alot of the text I would use for the portfolio. I also chose not to ask it coding questions because I would either figure it out on my own or ask the TA or others for advice. I did look up information online and cited it inside my code, but that isn't generative AI.
 
 > Use patterns
-* I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
-* I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
-  2. Tool2: 
 
-  I accepted one generation of code by Github CoPilot. The tool gave a suggestion for how to create a dynamic underline on hover for the nagivation bar. The code that it gave produced a line that was off-centered so I asked it to generate the line in the middle. From there, I modified the code based on which lines of code were actually necessary for the hover animation to work.
+I accepted one generation of code by Github CoPilot. The tool gave a suggestion for how to create a dynamic underline on hover for the nagivation bar. The code that it gave produced a line that was off-centered so I asked it to generate the line in the middle. From there, I modified the code based on which lines of code were actually necessary for the hover animation to work.
 
 
 > Pros and cons of using GenAI tools
