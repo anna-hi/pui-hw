@@ -9,7 +9,11 @@ export default function HomeProjects({ project }) {
         <div className="project-description">
           <div className="title-with-flower">
             <h3 className="title">{project.title}</h3>
-            <img src={loadImages(project.flower)} width="28px" alt={project.altFlower}/>
+            <img
+              src={loadImages(project.flower)}
+              width="28px"
+              alt={project.altFlower}
+            />
           </div>
 
           <p className="description">{project.description}</p>
@@ -27,7 +31,7 @@ export default function HomeProjects({ project }) {
             />
           </div>
         </div>
-        <motion.div whileHover={{ scale: 1.05 }} class ="project-image">
+        <motion.div whileHover={{ scale: 1.05 }} class="project-image">
           <img
             src={loadImages(project.imageFile)}
             alt={project.alt}

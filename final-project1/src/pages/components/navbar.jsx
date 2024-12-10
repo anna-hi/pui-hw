@@ -27,7 +27,7 @@ export default function Navbar() {
       <div className="nav-right">
         <div className="nav-links">
           <Link to="/" className="nav-individual-link">
-            <h3 className="active-page">Work</h3>
+            <h3>Work</h3>
           </Link>
           <Link to="https://drive.google.com/file/d/1yLEb9JJwInc0XuviAyUEJXIqHC9Z2nax/view?usp=sharing" className="nav-individual-link">
           <h3>Resume</h3>

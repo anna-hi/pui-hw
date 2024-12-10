@@ -122,8 +122,8 @@ I ended up not using ChatGPT at all becuase I didn't need it to generate words f
 
 ### Appendix:
 
-Screenshots from Waze
-
+Screenshots from Wave:
+![Homepage Wave](../final-project1/public/)
 
 ### Usage Log
 
@@ -164,7 +164,7 @@ page, etc. This portfolio will be used to showcase my Product/UX design work.
 
 ### *Prototype 1*
 
-![Homepage](images/prototype1.png)
+![Homepage](public/images/readme/prototype1.png)
 
 For the homepage, my two evaluators mentioned how liked the color scheme and the gradient of the
 background for the hero section. One user specifically thought that the arrow on the hero section
@@ -174,7 +174,7 @@ were clickable or not. They also thought the gradient to black background was sl
 
 ### *Prototype 2*
 
-![Case Study Page](images/prototype2.png)
+![Case Study Page](public/images/readme/prototype2.png)
 
 For the case study page, the evaluators both mentioned that they liked that I used different colors 
 to categorize the different sections. They both mentioned that the first image blended into the 
@@ -208,14 +208,14 @@ think the change from black to white was jarring enough to completely change.
 ## Updated Designs
 
 
-![Updated Homepage](images/updatedprototype1.png)
+![Updated Homepage](public/images/readme/updatedprototype1.png)
 
 As mentioned before, for the updated homepage I decided to add the interaction component with the
 down arrow in the hero section. I also decided to change the look of the tags so that they would
 seem more like tags. Thus, this updated design features more rounded buttons and an additional
 interaction with the arrow component. 
 
-![Updated Case study Page](images/updatedprototype2.png)
+![Updated Case study Page](public/images/readme/updatedprototype2.png)
 
 For the case study page, the main feedback I had received was on the initial image at the beginning
 of the page. My updated design adds a shadow to the initial image to separate the image from the
@@ -353,7 +353,7 @@ created by Gen AI that I don't understand.
 
 ### *Idea 1*
 
-![Personal Portfolio](images/portfolio.JPG)
+![Personal Portfolio](public/images/readme/portfolio.JPG)
 
 My first idea is a website portfolio to showcase my UX work. I plan to make my design interactive
 by adding interactions such as zooming in on pictures after clicking, and fun engaging animations
@@ -365,7 +365,7 @@ would be a good person to hire as a UX desginer.
 
 ### *Idea 2*
 
-![Food Blog](images/food-blog.JPG)
+![Food Blog](public/images/readme/food-blog.JPG)
 
 My second idea is a food blog that will showcase my family's recipes. My family has a lot of recipes
 and they aren't written down anywhere so this is a good opportunity to organize them. I plan to make 
@@ -376,7 +376,7 @@ This is especially important for this idea as the content will most likely be lo
 
 ### *Idea 3*
 
-![Restaurant Dictionary](images/restaurant-dictionary.JPG)
+![Restaurant Dictionary](public/images/readme/restaurant-dictionary.JPG)
 
 My third idea is a restaurant dictionary for the city of Boston. I used to live in Boston and there
 were always so many restaurants to keep track of. The website would offer insights for new restaurants 

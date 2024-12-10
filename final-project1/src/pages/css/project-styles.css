@@ -32,10 +32,10 @@ html p {
 }
 
 .project-container-penella {
-  background-color: #FFFBF6;
+  background-color: #fffbf6;
 }
 
-/* css for introduction with title/image */
+/* introduction with title/image */
 
 .proj-introduction {
   display: flex;
@@ -71,7 +71,6 @@ html p {
   justify-content: center;
 }
 
-
 /* margins for content */
 
 .content {
@@ -95,6 +94,18 @@ html p {
 
   margin-top: 4%;
   gap: 10%;
+}
+
+.three-column {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+
+  margin-bottom: 2%;
+}
+
+.column {
+  max-width: 240px;
 }
 
 /* beginning overview */
@@ -128,11 +139,11 @@ html p {
 }
 
 .text-header-mindful {
-  color: #5963B1;
+  color: #5963b1;
 }
 
 .text-header-penella {
-  color: #F2743E;
+  color: #f2743e;
 }
 
 .text-med-header {
@@ -146,7 +157,7 @@ html p {
   margin-bottom: 9px;
 }
 
-.section-header-mindful, 
+.section-header-mindful,
 .section-header-fat {
   display: flex;
   justify-content: center;
@@ -165,7 +176,7 @@ html p {
 }
 
 .section-header-mindful {
-  background-color: #5963B1;
+  background-color: #5963b1;
 }
 
 .big-section-header {
@@ -183,23 +194,15 @@ html p {
   margin-bottom: 2%;
 }
 
-.three-column {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 16px;
-
-  margin-bottom: 2%;
-}
-
-.column {
-  max-width: 240px;
-}
+/* list */
 
 .indented-list {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
 }
+
+/* center an image */
 
 .center-image {
   display: block;
@@ -237,7 +240,7 @@ html p {
   color: var(--foreground-rgb);
 }
 
-/* view image enlarged */
+/* view image enlarged start */
 .image-container {
   margin-left: auto;
   margin-right: auto;
@@ -271,3 +274,5 @@ html p {
   object-fit: contain;
   cursor: zoom-out;
 }
+
+/* view image enlarged end */

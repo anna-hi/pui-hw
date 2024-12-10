@@ -8,7 +8,19 @@ html {
   background-color: #25201a;
 }
 
-/* navbar styling start */
+.intro-background {
+  background-image: url("../../../public/images/homepage/background.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+/* navbar */
 
 nav {
   box-sizing: border-box;
@@ -67,9 +79,7 @@ h3 {
   font-weight: 400;
 }
 
-/* navbar styling end */
-
-/* intro styling start */
+/* intro */
 
 .home-main {
   padding: 40px 140px;
@@ -117,9 +127,7 @@ h3 {
   color: #ff81a0;
 }
 
-/* intro styling end */
-
-/* flower-currently and flower-constantly text styling start */
+/* flower-currently and flower-constantly text */
 
 .columns {
   display: flex;
@@ -163,9 +171,7 @@ h3 {
   margin-left: 41px;
 }
 
-/* flower-currently and flower-constantly text styling end */
-
-/* scroll down button start */
+/* scroll down button */
 
 .scroll-down {
   display: flex;
@@ -177,9 +183,7 @@ h3 {
   cursor: pointer;
 }
 
-/* scroll down button end */
-
-/* project styling start */
+/* project */
 
 .all-projects {
   margin-top: 0;
@@ -223,6 +227,8 @@ h3 {
   width: 80%;
 }
 
+/* project tags */
+
 .tags {
   display: flex;
   justify-content: center;
@@ -243,6 +249,20 @@ h3 {
   font-family: "Alegreya Sans SC";
 }
 
+/* project image */
+
+.project-image {
+  flex: 1 1 500px;
+}
+
+.project-cover-image {
+  width: 100%;
+  height: auto;
+  max-width: 650px;
+}
+
+/* project text */
+
 .project-description {
   display: flex;
   max-width: 393px;
@@ -252,16 +272,6 @@ h3 {
   gap: 40px;
 
   flex-shrink: 1;
-}
-
-.project-image {
-  flex: 1 1 500px;
-}
-
-.project-cover-image {
-  width:100%;
-  height: auto;
-  max-width: 650px;
 }
 
 .take-a-look {
@@ -283,22 +293,7 @@ h3 {
   align-self: stretch;
 }
 
-
 .link {
   text-decoration: none;
   color: #fff;
-}
-
-/* project styling end */
-
-.intro-background {
-  background-image: url("../../../public/images/homepage/background.png");
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  max-height: 100%;
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
 }
