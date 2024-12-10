@@ -22,7 +22,7 @@ The purpose of my website is to act as my personal portfolio for my UX work. Thi
 
 The target audience is recruiters, hiring managers, and also myself as I would be a primary user of my own website. This audience, excluding myself, would most likely spend minimal time on my website. Thus, it's important that the design of my website would need to be extremely clear and In my website, I aim to convey that I am a product designer with strong visual, product design, and reserach skills. The design of the website itself is an opportunity to showcase that information. On the website, the user will be able to view my different projects and see my resume. The individual project pages will have details about the timeline and a brief overview of the project. Due to the time constriction for this project, the individual project pages are shorter than they normally would be, but showcase how the beginning of each individual project would look like.
 
-This website showcases a lot of fun, small interactions that help the website be fun and engaging. There are small animations with my playful flowers as well as some hover animations that make the website more interactive as there is feedback on hover. Finally, the website offers a scroll to top button which acts as a fun and helpful interaction for the user for the individual projects. The webiste is also engaging through my digitally drawn flowers, use of color, andthe unique images that showcase my UX work.
+This website showcases a lot of fun, small interactions that help the website be fun and engaging. There are small animations with my playful flowers as well as some hover animations that make the website more interactive as there is feedback on hover. Finally, the website offers a scroll to top button and image enlarger which acts as fun and helpful interactions for the user for the individual projects. The webiste is also engaging through my digitally drawn flowers, use of color, andthe unique images that showcase my UX work.
 
 ## Part 2: User Interaction
 
@@ -32,9 +32,14 @@ How a user would interact with your website? For each step, briefly but clearly 
 2. Load. Load homepage. (top left flower should "bloom")
 3. Load. Load homepage. (the purple and blue flower should have a raise spinning animation)
 4. Hover. Hover on navbar tabs. (a line should dynamically appear when you hover)
+5. Hover. Hover on footer links in bottom right (an underline should appear on idnvidual links)
 5. Hover. Hover on any of the project images on homepage. (the image should slightly expand)
 6. Load. Load any individual project page. (content appearing animation)
-7. 
+7. Click. Click on down arrow on homepage. (page should automatically scroll to projects)
+8. Scroll. Scroll on any page. (a up arrow should appear in bottom right corner)
+9. Click. Click on up arrow in bottom right corner of any page. (the page should automatically srcoll to the top)
+10. Click. Click on images in individual project pages (not the cover image). (the image should maximize)
+11. Scroll. Scroll once the image is maximized. (the image should automatically return to normal size)
 
 ## Part 3: External Tool
 
@@ -58,7 +63,7 @@ I chose to use Motion because it helped simplify adding animations to my website
 
 Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
 
-During group critique session in lab, the main suggestion that was made was to include my digitally drawn flowers with the project names in order to maintain the same appeal as the hero section. I decided to include this as I thought that it would help the visual appeal of the website as you scrolled. Otherwise, there was relatively minimal critique on the design of the website. 
+During group critique session in lab, the main suggestion that was made was to include my digitally drawn flowers with the project names in order to maintain the same appeal as the hero section. I decided to include this as I thought that it would help the visual appeal of the website as you scrolled. In addition, when I did the user testing, there was an expectation that clicking the down arrow on the homepage would make it automatically scroll. I also added that to my implemenation of the website. Otherwise, there was relatively minimal critique on the design of the website. 
 
 ## Part 5: Implementation Challenge
 
@@ -96,7 +101,7 @@ Productivity | Productivity | N/A  | N/A | N/A | 6 | N/A
 * It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
   1. Tool1: Github CoPilot
 
-In my initial plan, I decided that I would use Github CoPilot sparingly and I did exactly that. When I feel stuck when I'm writing code, my first instinct is to look it up online rather than asking Github CoPilot. I think I'm wary of excessive code that it may output so I would rather try to figure it out on my own instead. 
+In my initial plan, I decided that I would use Github CoPilot sparingly and I did exactly that. When I feel stuck when I'm writing code, my first instinct is to look it up online rather than asking Github CoPilot. I think I'm wary of excessive code that it may output so I would rather try to figure it out on my own instead. I only used Github CoPilot once to consider the hovering for the navigation bar at the top of the page.
 
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
   1. Tool1: ChatGPT
@@ -111,26 +116,48 @@ I ended up not using ChatGPT at all becuase I didn't need it to generate words f
   1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
   2. Tool2: 
 
+  I accepted one generation of code by Github CoPilot. The tool gave a suggestion for how to create a dynamic underline on hover for the nagivation bar. The code that it gave produced a line that was off-centered so I asked it to generate the line in the middle. From there, I modified the code based on which lines of code were actually necessary for the hover animation to work.
+
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: Github CoPilot
+     It was nice that Github CoPilot was able to generate actual code based off of text input.
 * Cons
-  1. Tool1: 
-  2. Tool2:
-
-### Appendix:
-
-Screenshots from Wave:
-![Homepage Wave](../final-project1/public/)
+  1. Tool1: Github CoPilot
+     There was some random code that didn't do anything for the output.
 
 ### Usage Log
 
 Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
 
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.): export chat histories relevant to this project.
+1. Github Copilot prompts: "make an underline that expands on hover", "move the line to the middle"
+
+### Appendix:
+
+Screen Sizes to test on: Desktop (1470x956), iPad Pro (1024 x 1366) or horizontal (1366 x 1024)
+
+Screenshots from Wave:
+
+Homepage
+![Homepage Wave Summary](public/images/readme/wave/wave-homepage-sum.png)
+![Homepage Wave Details Part 1](public/images/readme/wave/wave-homepage-details1.png)
+![Homepage Wave Details Part 2](public/images/readme/wave/wave-homepage-details2.png)
+
+Faculty Activity Tracker (FAT) Project Page
+![FAT Wave Summary](public/images/readme/wave/wave-fat-sum.png)
+![FAT Wave Details Part 1](public/images/readme/wave/wave-fat-details1.png)
+![FAT Wave Details Part 2](public/images/readme/wave/wave-fat-details2.png)
+
+Mindful Project Page
+![Mindful Wave Summary](public/images/readme/wave/wave-mindful-sum.png)
+![Mindful Wave Details Part 1](public/images/readme/wave/wave-mindful-details1.png)
+![Mindful Wave Details Part 2](public/images/readme/wave/wave-mindful-details2.png)
+
+Penella Project Page
+![Penella Wave Summary](public/images/readme/wave/wave-penella-sum.png)
+![Penella Wave Details Part 1](public/images/readme/wave/wave-penella-details1.png)
+![Penella Wave Details Part 2](public/images/readme/wave/wave-penella-details2.png)
 
 ---
 

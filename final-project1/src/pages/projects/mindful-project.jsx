@@ -3,6 +3,7 @@ import "../css/project-styles.css";
 import ImageViewer from "./components/image-viewer";
 import ProjectHeader from "./components/project-header";
 
+// main page for mindful project
 export default function MindfulProject() {
   const mindful = {
     title: "Pairing Mindfulness with Task Organization",

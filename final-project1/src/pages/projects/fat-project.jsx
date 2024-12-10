@@ -3,6 +3,7 @@ import "../css/project-styles.css";
 import ProjectHeader from "./components/project-header";
 import ImageViewer from "./components/image-viewer";
 
+// main page for faculty activity tracker (fat) project
 export default function FatProject() {
   const fat = {
     title: "Streamlining Form and Scoring Experiences",

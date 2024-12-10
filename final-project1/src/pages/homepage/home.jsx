@@ -4,6 +4,43 @@ import "../css/home.css";
 import { loadImages } from "../../utils/utils";
 import { useRef } from "react";
 
+// project information for list of projects on homepage
+const projects = [
+  {
+    title: "Streamlining Form and Scoring Experiences",
+    description:
+      "How do we make it easier for faculty to fill out an annual form? How do we optimize efficiency for the committee who scores those forms?",
+    imageFile: "images/homepage/fat.png",
+    flower: "images/homepage/fat-flower.svg",
+    alt: "dashboard of Faculty Activity Tracker project with red to orange gradient background",
+    altFlower: "reddish-pink flower with yellow center",
+    tags: ["product design", "design systems"],
+    link: "/fatProject",
+  },
+  {
+    title: "Pairing Mindfulness with Task Organization",
+    description:
+      "How might we help college students practice mindfulness in a productive and stress-relieving manner?",
+    imageFile: "images/homepage/mindful-cover.png",
+    flower: "images/homepage/mindful-flower.svg",
+    alt: "two phone mockups over blue background with circle and star designs along the border",
+    altFlower: "blue flower with yellow center",
+    tags: ["design systems", "ux research"],
+    link: "/mindfulProject",
+  },
+  {
+    title: "A Personalized Digital Space for Women",
+    description:
+      "How might we create a personalized space where women can express their emotions, keep track of their mood, and feel creatively fulfilled?",
+    imageFile: "images/homepage/penella-cover.png",
+    flower: "images/homepage/penella-flower.svg",
+    alt: "computer, desktop, and mobile mockup of a website with light pink background",
+    altFlower: "light pink flower with brown center",
+    tags: ["design process", "ux research"],
+    link: "/penellaProject",
+  },
+];
+
 export default function Home() {
   const projectRef = useRef(null);
 
@@ -14,41 +51,7 @@ export default function Home() {
       inline: "nearest",
     });
   };
-  const projects = [
-    {
-      title: "Streamlining Form and Scoring Experiences",
-      description:
-        "How do we make it easier for faculty to fill out an annual form? How do we optimize efficiency for the committee who scores those forms?",
-      imageFile: "images/homepage/fat.png",
-      flower: "images/homepage/fat-flower.svg",
-      alt: "dashboard of Faculty Activity Tracker project with red to orange gradient background",
-      altFlower: "reddish-pink flower with yellow center",
-      tags: ["product design", "design systems"],
-      link: "/fatProject",
-    },
-    {
-      title: "Pairing Mindfulness with Task Organization",
-      description:
-        "How might we help college students practice mindfulness in a productive and stress-relieving manner?",
-      imageFile: "images/homepage/mindful-cover.png",
-      flower: "images/homepage/mindful-flower.svg",
-      alt: "two phone mockups over blue background with circle and star designs along the border",
-      altFlower: "blue flower with yellow center",
-      tags: ["design systems", "ux research"],
-      link: "/mindfulProject",
-    },
-    {
-      title: "A Personalized Digital Space for Women",
-      description:
-        "How might we create a personalized space where women can express their emotions, keep track of their mood, and feel creatively fulfilled?",
-      imageFile: "images/homepage/penella-cover.png",
-      flower: "images/homepage/penella-flower.svg",
-      alt: "computer, desktop, and mobile mockup of a website with light pink background",
-      altFlower: "light pink flower with brown center",
-      tags: ["design process", "ux research"],
-      link: "/penellaProject",
-    },
-  ];
+
   return (
     <body className="background">
       <main class="home-main">

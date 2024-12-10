@@ -59,6 +59,8 @@ html p {
   margin-right: auto;
 
   margin-top: 4%;
+
+  background-color: #25201a;
 }
 
 .project-subtext {
@@ -69,6 +71,8 @@ html p {
 
   display: flex;
   justify-content: center;
+
+  background-color: #25201a;
 }
 
 /* margins for content */
@@ -132,7 +136,7 @@ html p {
   font-size: 20px;
   flex-grow: 1;
 
-  color: #dc4b4b;
+  color: #D52A2A;
   font-weight: 600;
 
   margin-top: 0;
@@ -143,7 +147,7 @@ html p {
 }
 
 .text-header-penella {
-  color: #f2743e;
+  color: #673D1F;
 }
 
 .text-med-header {

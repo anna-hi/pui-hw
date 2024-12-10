@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { loadImages } from "../../utils/utils";
 
+// project element shown on home page
 export default function HomeProjects({ project }) {
   return (
     <Link to={project.link} class="link">

@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "motion/react";
 import React, { useState, useEffect } from "react";
 
+// makes image bigger when clicked on
 export default function ImageViewer({ src, alt }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -12,6 +13,7 @@ export default function ImageViewer({ src, alt }) {
     setIsModalOpen(false);
   };
 
+  // closes the modal when the user scrolls
   useEffect(() => {
     const handleOnScroll = () => {
       if (isModalOpen) {

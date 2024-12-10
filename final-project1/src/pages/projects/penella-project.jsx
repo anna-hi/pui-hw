@@ -3,6 +3,7 @@ import "../css/project-styles.css";
 import ProjectHeader from "./components/project-header";
 import ImageViewer from "./components/image-viewer";
 
+// main page for penella project
 export default function PenellaProject() {
   const penella = {
     title: "A Personalizezd Digital Space for Women",

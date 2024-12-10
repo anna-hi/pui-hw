@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { loadImages } from "../../../utils/utils";
 
+// project head, the top of the project page containing the project title, tags and cover image
 export default function ProjectHeader({ projectHead }) {
   const contentRef = useRef(null);
   const backgroundRef = useRef(null);
@@ -9,7 +10,7 @@ export default function ProjectHeader({ projectHead }) {
   useEffect(() => {
     if (contentRef.current) {
       // Create a ResizeObserver to track changes
-      // https://react.dev/reference/react/useRef
+      // source = https://react.dev/reference/react/useRef
       const resizeObserver = new ResizeObserver((entries) => {
         entries.forEach((entry) => {
           if (backgroundRef.current) {
@@ -38,7 +39,7 @@ export default function ProjectHeader({ projectHead }) {
           }}
         >
           <h1 className="project-title">{projectHead.title}</h1>
-          <h3 className="project-subtext">{projectHead.subtext}</h3>
+          <h2 className="project-subtext">{projectHead.subtext}</h2>
           <img
             src={loadImages(projectHead.coverImage)}
             width={projectHead.coverImageWidth}
