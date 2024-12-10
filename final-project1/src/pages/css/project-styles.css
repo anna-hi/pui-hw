@@ -67,6 +67,8 @@ html p {
   font-size: 18px;
   color: #f8f8f8;
   font-family: "Alegreya Sans SC";
+  font-weight: normal;
+  
   margin-bottom: 5%;
 
   display: flex;
