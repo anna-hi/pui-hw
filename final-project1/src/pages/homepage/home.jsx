@@ -32,7 +32,7 @@ export default function Home() {
         "How might we help college students practice mindfulness in a productive and stress-relieving manner?",
       imageFile: "images/homepage/mindful-cover.png",
       flower: "images/homepage/mindful-flower.svg",
-      alt: "two phone mockups over blue background with a yellow circle on the top left with a orange star and a blue circle on bottom right with orange star at the top right of it with white curvy lines",
+      alt: "two phone mockups over blue background with circle and star designs along the border",
       altFlower: "blue flower with yellow center",
       tags: ["design systems", "ux research"],
       link: "/mindfulProject",

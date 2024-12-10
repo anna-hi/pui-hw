@@ -9,7 +9,7 @@ export default function FatProject() {
     subtext: "product design · design systems",
     coverImage: "/images/fat-project/fat-cover.png",
     coverImageAlt:
-      "mockup of dashboard with two graphs with red bars and cards naming professors",
+      "mockup of dashboard with two graphs with red bars and professor cards",
     coverImageWidth: "100%",
   };
   return (
