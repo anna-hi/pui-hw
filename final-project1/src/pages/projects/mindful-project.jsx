@@ -1,7 +1,7 @@
 import { loadImages } from "../../utils/utils";
 import "../css/project-styles.css";
-import ImageViewer from "../image-viewer";
-import ProjectHeader from "../project-header";
+import ImageViewer from "./components/image-viewer";
+import ProjectHeader from "./components/project-header";
 
 export default function MindfulProject() {
   const mindful = {
@@ -84,18 +84,12 @@ export default function MindfulProject() {
                 </ol>
               </div>
             </div>
-            <div className="image-big-view">
+            <div className="image-container image-width-80">
               <ImageViewer
                 src={loadImages("images/mindful-project/mindful-images.png")}
                 alt={"three mobile phone mockups of Mindful project"}
               />
             </div>
-            <img
-              src={loadImages("images/mindful-project/mindful-images.png")}
-              width="80%"
-              alt="three mobile phone mockups of Mindful project"
-              className="center-image"
-            />
           </div>
         </section>
       </main>

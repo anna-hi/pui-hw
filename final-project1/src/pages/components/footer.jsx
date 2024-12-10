@@ -1,5 +1,5 @@
-import { loadImages } from "../utils/utils";
-import "./css/footer.css";
+import { loadImages } from "../../utils/utils";
+import "../css/footer.css";
 
 export default function Footer() {
   return (
@@ -14,12 +14,12 @@ export default function Footer() {
                 alt="pink flower with yellow center"
               />
             </span></h3>
-        </div>
+        </div> 
         <div className="footer-right footer-text">
           <h3>
-            <a href="https://www.linkedin.com/in/anna-ji/">Linkedin </a>/ 
-            <a href="https://drive.google.com/file/d/1yLEb9JJwInc0XuviAyUEJXIqHC9Z2nax/view?usp=sharing">{" "}Resume </a>/ 
-            <a href="https://github.com/anna-hi">{" "}Github</a></h3>
+            <a href="https://www.linkedin.com/in/anna-ji/" className="footer-link">Linkedin</a>{" "}/{" "} 
+            <a href="https://drive.google.com/file/d/1yLEb9JJwInc0XuviAyUEJXIqHC9Z2nax/view?usp=sharing" className="footer-link">Resume</a>{" "}/{" "}
+            <a href="https://github.com/anna-hi" className="footer-link">{" "}Github</a></h3>
         </div>
       </div>
     </footer>

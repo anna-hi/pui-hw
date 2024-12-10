@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
-import { loadImages } from "../utils/utils";
+import { loadImages } from "../../../utils/utils";
 
 export default function ProjectHeader({projectHead}) {
   const contentRef = useRef(null);

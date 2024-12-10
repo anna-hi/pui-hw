@@ -14,3 +14,4 @@ const ScrollToTop = () => {
 export default ScrollToTop;
 
 // Source = https://dev.to/kunalukey/scroll-to-top-when-route-changes-reactjs-react-router-3bgn
+// scrolls to top when going to new page

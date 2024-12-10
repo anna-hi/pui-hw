@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
-import { loadImages } from "../utils/utils";
+import { loadImages } from "../../utils/utils";
 
 export default function HomeProjects({ project }) {
   return (

@@ -1,6 +1,7 @@
 import { loadImages } from "../../utils/utils";
 import "../css/project-styles.css";
-import ProjectHeader from "../project-header";
+import ProjectHeader from "./components/project-header";
+import ImageViewer from "./components/image-viewer";
 
 export default function FatProject() {
   const fat = {
@@ -10,7 +11,6 @@ export default function FatProject() {
     coverImageAlt:
       "mockup of dashboard with two graphs with red bars and cards naming professors",
     coverImageWidth: "100%",
-
   };
   return (
     <div id="fat-project" className="project-container-fat">
@@ -86,11 +86,14 @@ export default function FatProject() {
                 </div>
               </div>
             </div>
-            <img
-              src={loadImages("images/fat-project/paper-form.png")}
-              width="100%"
-              alt="orginial paper form with three pages and multiple form boxes"
-            />
+            <div className="image-container">
+              <ImageViewer
+                src={loadImages("images/fat-project/paper-form.png")}
+                alt={
+                  "orginial paper form with three pages and multiple form boxes"
+                }
+              />
+            </div>
           </div>
         </section>
       </main>

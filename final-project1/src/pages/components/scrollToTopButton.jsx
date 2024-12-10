@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import { loadImages } from "../utils/utils";
-import "./css/project-styles.css";
+import { loadImages } from "../../utils/utils";
+import "../css/project-styles.css";
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -17,7 +17,6 @@ const ScrollToTopButton = () => {
   };
 
   const scrollToTopButton = () => {
-    console.log("hi");
     window.scrollTo({
       top: 0,
       behavior: "smooth",

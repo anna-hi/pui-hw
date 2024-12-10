@@ -1,10 +1,17 @@
 import HomeProjects from "./home-projects";
 import { motion } from "motion/react";
-import "./css/home.css";
-import { loadImages } from "../utils/utils";
+import "../css/home.css";
+import { loadImages } from "../../utils/utils";
+import { useRef } from "react";
 
 
-export default function home() {
+export default function Home() {
+  const projectRef = useRef(null);
+
+  const handleScrollDown = () => {
+    
+    projectRef.current.scrollIntoView({behavior: "smooth",  block: "start", inline: "nearest"});
+  }
   const projects = [
     {
       title: "Streamlining Form and Scoring Experiences",
@@ -81,14 +88,6 @@ export default function home() {
               <div id="activity-element">
                 <div className="flower-text">
                   <motion.div
-                    // className="nav-image"
-                    // initial={{ opacity: 0, scale: 0.5 }}
-                    // animate={{ opacity: 1, scale: 1 }}
-                    // transition={{
-                    //   duration: 0.8,
-                    //   delay: 0.5,
-                    //   ease: [0, 0.71, 0.2, 1.01],
-                    // }}
                     animate={{
                       y: [0,-25,0],
                       rotate: [0, 0, 360],
@@ -112,17 +111,17 @@ export default function home() {
                 <h4 className="subtext">Thinking how to improve human lives</h4>
               </div>
             </div>
-            <div className="scroll-down">
+            <div className="scroll-down" onClick={handleScrollDown}>
               <img 
                 src={loadImages('images/homepage/down-arrow.svg')}
                 width="60" 
-                alt="down arrow" />
+                alt="down arrow"/>
             </div>
           </div>
           <div className="intro-background"></div>
         </section>
         <section className="featured-projects">
-          <div className="all-projects">
+          <div className="all-projects" ref={projectRef}>
             {projects.map((project) => (
               <HomeProjects project={project} />
             ))}

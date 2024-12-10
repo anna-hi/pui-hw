@@ -1,6 +1,7 @@
 import { loadImages } from "../../utils/utils";
 import "../css/project-styles.css";
-import ProjectHeader from "../project-header";
+import ProjectHeader from "./components/project-header";
+import ImageViewer from "./components/image-viewer";
 
 export default function PenellaProject() {
   const penella = {
@@ -64,12 +65,14 @@ export default function PenellaProject() {
                 </ol>
               </div>
             </div>
-            <img
-              src={loadImages("images/penella-project/penella-screens.png")}
-              width="100%"
-              alt="three mobile phone mockups of Mindful project"
-              className="center-image"
-            />
+            <div className="image-container">
+              <ImageViewer
+                src={loadImages("images/penella-project/penella-screens.png")}
+                alt={"three desktop mockups of Penella project"}
+                className="center-image"
+                width="100%"
+              />
+            </div>
           </div>
         </section>
       </main>

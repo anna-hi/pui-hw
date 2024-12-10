@@ -1,13 +1,13 @@
-import Home from "./pages/home";
+import Home from "./pages/homepage/home";
 import FatProject from "./pages/projects/fat-project";
 import MindfulProject from "./pages/projects/mindful-project";
 import PenellaProject from "./pages/projects/penella-project";
-import Navbar from "./pages/navbar";
-import Footer from "./pages/footer";
+import Navbar from "./pages/components/navbar";
+import Footer from "./pages/components/footer";
 import "./App.css";
 import { Routes, Route, HashRouter } from "react-router-dom";
-import ScrollToTop from "./pages/scrollToTop";
-import ScrollToTopButton from "./pages/scrollToTopButton";
+import ScrollToTop from "./utils/scrollToTop";
+import ScrollToTopButton from "./pages/components/scrollToTopButton";
 
 function App() {
   return (
